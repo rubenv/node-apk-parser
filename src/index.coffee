@@ -67,6 +67,9 @@ parseOutput = (text, cb) ->
             if rest.substring(0, 2) == '="'
                 # Embedded string
                 value = extractRaw(rest.substring(1))
+            else if rest.substring(0, 12) == '=(type 0x12)'
+                # Boolean
+                value = rest[14] == '1'
             else
                 parts = rest.match /^\(0x[0-9a-f]+\)\=(.*)$/
                 return cb(new Error('Cannot parse value: ' + rest)) if !parts
