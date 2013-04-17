@@ -1,6 +1,19 @@
+os = require 'os'
+exec = require('child_process').exec
+
 parseApk = (filename, cb) ->
-    # TODO: Pipe APK to aapt
-    parseOutput(text, cb)
+    if os.type() == 'Darwin'
+        platform = 'macosx'
+        opts = ''
+    else if os.type() == 'Linux'
+        platform = 'linux'
+        opts = '-JDuser.home=./home'
+    else
+        return cb(new Error('Unknown OS!'))
+
+    exec "#{__dirname}/../tools/#{platform}/aapt l -a #{filename}", (err, out) ->
+        return cb(err) if err
+        parseOutput(out, cb)
 
 extractRaw = (string) ->
     sep = '" (Raw: "'
