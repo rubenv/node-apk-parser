@@ -11,7 +11,7 @@ parseApk = (filename, cb) ->
     else
         return cb(new Error('Unknown OS!'))
 
-    exec "#{__dirname}/../tools/#{platform}/aapt", [ 'l', '-a', filename ], (err, out) ->
+    exec "#{__dirname}/../tools/#{platform}/aapt", [ 'l', '-a', filename ], { maxBuffer: 1024*1024 }, (err, out) ->
         return cb(err) if err
         parseOutput(out, cb)
 
