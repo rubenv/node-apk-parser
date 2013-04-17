@@ -5,5 +5,5 @@ node_js:
   - "0.11"
 before_script:
   - sudo apt-get update -qq
-  - sudo sudo apt-get install -qq ia32-libs
+  - sudo apt-get install -qq ia32-libs
   - npm install -g grunt-cli
