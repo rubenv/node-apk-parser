@@ -1,0 +1,928 @@
+META-INF/MANIFEST.MF
+META-INF/MARKET.SF
+META-INF/MARKET.RSA
+assets/meldingen_tutorial.html
+res/drawable/actionbar_back_indicator.png
+res/drawable/actionbar_background.xml
+res/drawable/actionbar_btn.xml
+res/drawable/actionbar_btn_normal.xml
+res/drawable/actionbar_btn_pressed.xml
+res/drawable/darkerdefaultbutton.xml
+res/drawable/defaultbutton.xml
+res/drawable/defaultlistbackground.xml
+res/drawable/ic_title_home_demo.png
+res/drawable/icon.png
+res/drawable/listitemactivated.xml
+res/drawable/listitemdefault.xml
+res/drawable/waypointroundedblock.xml
+res/layout/aboutactivity.xml
+res/layout/actionbar.xml
+res/layout/actionbar_item.xml
+res/layout/actionbar_text_item.xml
+res/layout/homeactivity.xml
+res/layout/myroutesactivity.xml
+res/layout/notificationoverviewactivity.xml
+res/layout/plantripactivity.xml
+res/layout/poidetailactivity.xml
+res/layout/poilistitem.xml
+res/layout/poitutorialactivity.xml
+res/layout/routecodeactivity.xml
+res/layout/routedetailactivity.xml
+res/layout/routeoverviewactivity.xml
+res/layout/routesummaryview.xml
+res/layout/shareactivity.xml
+res/layout/simplepoilistitem.xml
+res/layout/viewfullrouteview.xml
+res/layout/waypointlistitem.xml
+res/menu/homemenu.xml
+res/menu/myroutesmenu.xml
+res/menu/poidetailmenu.xml
+res/menu/sharemenu.xml
+res/raw/bikebell.mp3
+AndroidManifest.xml
+resources.arsc
+res/drawable-hdpi/arrow_bg.png
+res/drawable-hdpi/background_empty.png
+res/drawable-hdpi/background_home.png
+res/drawable-hdpi/bell.png
+res/drawable-hdpi/bike_checked.png
+res/drawable-hdpi/bike_unchecked.png
+res/drawable-hdpi/couple_checked.png
+res/drawable-hdpi/couple_unchecked.png
+res/drawable-hdpi/family_checked.png
+res/drawable-hdpi/family_unchecked.png
+res/drawable-hdpi/horizontal_divider.png
+res/drawable-hdpi/ic_launcher.png
+res/drawable-hdpi/icon_code.png
+res/drawable-hdpi/icon_compass.png
+res/drawable-hdpi/icon_fietser.png
+res/drawable-hdpi/icon_info.png
+res/drawable-hdpi/icon_wandelaar.png
+res/drawable-hdpi/map.png
+res/drawable-hdpi/map_polaroid.png
+res/drawable-hdpi/mijnroutes.png
+res/drawable-hdpi/notifications.png
+res/drawable-hdpi/paperclip.png
+res/drawable-hdpi/photo_stack.png
+res/drawable-hdpi/pin.png
+res/drawable-hdpi/placeholder.png
+res/drawable-hdpi/share.png
+res/drawable-hdpi/slider_beer.png
+res/drawable-hdpi/slider_bike.png
+res/drawable-hdpi/telephone.png
+res/drawable-hdpi/walk_checked.png
+res/drawable-hdpi/walk_unchecked.png
+res/drawable-ldpi/arrow_bg.png
+res/drawable-ldpi/background_empty.png
+res/drawable-ldpi/background_home.png
+res/drawable-ldpi/bell.png
+res/drawable-ldpi/bike_checked.png
+res/drawable-ldpi/bike_unchecked.png
+res/drawable-ldpi/couple_checked.png
+res/drawable-ldpi/couple_unchecked.png
+res/drawable-ldpi/family_checked.png
+res/drawable-ldpi/family_unchecked.png
+res/drawable-ldpi/horizontal_divider.png
+res/drawable-ldpi/ic_launcher.png
+res/drawable-ldpi/icon_code.png
+res/drawable-ldpi/icon_compass.png
+res/drawable-ldpi/icon_fietser.png
+res/drawable-ldpi/icon_info.png
+res/drawable-ldpi/icon_wandelaar.png
+res/drawable-ldpi/map.png
+res/drawable-ldpi/map_polaroid.png
+res/drawable-ldpi/mijnroutes.png
+res/drawable-ldpi/notifications.png
+res/drawable-ldpi/paperclip.png
+res/drawable-ldpi/photo_stack.png
+res/drawable-ldpi/pin.png
+res/drawable-ldpi/placeholder.png
+res/drawable-ldpi/share.png
+res/drawable-ldpi/slider_beer.png
+res/drawable-ldpi/slider_bike.png
+res/drawable-ldpi/telephone.png
+res/drawable-ldpi/walk_checked.png
+res/drawable-ldpi/walk_unchecked.png
+res/drawable-mdpi/arrow_bg.png
+res/drawable-mdpi/background_empty.png
+res/drawable-mdpi/background_home.png
+res/drawable-mdpi/bell.png
+res/drawable-mdpi/bike_checked.png
+res/drawable-mdpi/bike_unchecked.png
+res/drawable-mdpi/couple_checked.png
+res/drawable-mdpi/couple_unchecked.png
+res/drawable-mdpi/family_checked.png
+res/drawable-mdpi/family_unchecked.png
+res/drawable-mdpi/horizontal_divider.png
+res/drawable-mdpi/ic_launcher.png
+res/drawable-mdpi/icon_code.png
+res/drawable-mdpi/icon_compass.png
+res/drawable-mdpi/icon_fietser.png
+res/drawable-mdpi/icon_info.png
+res/drawable-mdpi/icon_wandelaar.png
+res/drawable-mdpi/map.png
+res/drawable-mdpi/map_polaroid.png
+res/drawable-mdpi/mijnroutes.png
+res/drawable-mdpi/notifications.png
+res/drawable-mdpi/paperclip.png
+res/drawable-mdpi/photo_stack.png
+res/drawable-mdpi/pin.png
+res/drawable-mdpi/placeholder.png
+res/drawable-mdpi/share.png
+res/drawable-mdpi/slider_beer.png
+res/drawable-mdpi/slider_bike.png
+res/drawable-mdpi/telephone.png
+res/drawable-mdpi/walk_checked.png
+res/drawable-mdpi/walk_unchecked.png
+classes.dex
+assemblies/WestVlinderen.Droid.dll
+assemblies/WestVlinderen.Core.Droid.dll
+assemblies/FlowPilots.Mono.Android.dll
+assemblies/GoogleAnalytics.dll
+assemblies/mscorlib.dll
+assemblies/Mono.Android.dll
+assemblies/System.Core.dll
+assemblies/System.dll
+assemblies/Mono.Security.dll
+assemblies/System.Xml.dll
+assemblies/System.Xml.Linq.dll
+assemblies/System.Runtime.Serialization.dll
+assemblies/Mono.Android.GoogleMaps.dll
+lib/armeabi-v7a/libmonodroid.so
+
+Resource table:
+Package Groups (1)
+Package Group 0 id=127 packageCount=1 name=WestVlinderen.Droid
+  Package 0 id=127 name=WestVlinderen.Droid typeCount=10
+    type 0 configCount=1 entryCount=1
+      spec resource 0x7f010000 WestVlinderen.Droid:attr/title: flags=0x00000000
+      config 0
+        resource 0x7f010000 WestVlinderen.Droid:attr/title: <bag>
+    type 1 configCount=4 entryCount=44
+      spec resource 0x7f020000 WestVlinderen.Droid:drawable/actionbar_back_indicator: flags=0x00000000
+      spec resource 0x7f020001 WestVlinderen.Droid:drawable/actionbar_background: flags=0x00000000
+      spec resource 0x7f020002 WestVlinderen.Droid:drawable/actionbar_btn: flags=0x00000000
+      spec resource 0x7f020003 WestVlinderen.Droid:drawable/actionbar_btn_normal: flags=0x00000000
+      spec resource 0x7f020004 WestVlinderen.Droid:drawable/actionbar_btn_pressed: flags=0x00000000
+      spec resource 0x7f020005 WestVlinderen.Droid:drawable/arrow_bg: flags=0x00000100
+      spec resource 0x7f020006 WestVlinderen.Droid:drawable/background_empty: flags=0x00000100
+      spec resource 0x7f020007 WestVlinderen.Droid:drawable/background_home: flags=0x00000100
+      spec resource 0x7f020008 WestVlinderen.Droid:drawable/bell: flags=0x00000100
+      spec resource 0x7f020009 WestVlinderen.Droid:drawable/bike_checked: flags=0x00000100
+      spec resource 0x7f02000a WestVlinderen.Droid:drawable/bike_unchecked: flags=0x00000100
+      spec resource 0x7f02000b WestVlinderen.Droid:drawable/couple_checked: flags=0x00000100
+      spec resource 0x7f02000c WestVlinderen.Droid:drawable/couple_unchecked: flags=0x00000100
+      spec resource 0x7f02000d WestVlinderen.Droid:drawable/darkerdefaultbutton: flags=0x00000000
+      spec resource 0x7f02000e WestVlinderen.Droid:drawable/defaultbutton: flags=0x00000000
+      spec resource 0x7f02000f WestVlinderen.Droid:drawable/defaultlistbackground: flags=0x00000000
+      spec resource 0x7f020010 WestVlinderen.Droid:drawable/family_checked: flags=0x00000100
+      spec resource 0x7f020011 WestVlinderen.Droid:drawable/family_unchecked: flags=0x00000100
+      spec resource 0x7f020012 WestVlinderen.Droid:drawable/horizontal_divider: flags=0x00000100
+      spec resource 0x7f020013 WestVlinderen.Droid:drawable/ic_launcher: flags=0x00000100
+      spec resource 0x7f020014 WestVlinderen.Droid:drawable/ic_title_home_demo: flags=0x00000000
+      spec resource 0x7f020015 WestVlinderen.Droid:drawable/icon: flags=0x00000000
+      spec resource 0x7f020016 WestVlinderen.Droid:drawable/icon_code: flags=0x00000100
+      spec resource 0x7f020017 WestVlinderen.Droid:drawable/icon_compass: flags=0x00000100
+      spec resource 0x7f020018 WestVlinderen.Droid:drawable/icon_fietser: flags=0x00000100
+      spec resource 0x7f020019 WestVlinderen.Droid:drawable/icon_info: flags=0x00000100
+      spec resource 0x7f02001a WestVlinderen.Droid:drawable/icon_wandelaar: flags=0x00000100
+      spec resource 0x7f02001b WestVlinderen.Droid:drawable/listitemactivated: flags=0x00000000
+      spec resource 0x7f02001c WestVlinderen.Droid:drawable/listitemdefault: flags=0x00000000
+      spec resource 0x7f02001d WestVlinderen.Droid:drawable/map: flags=0x00000100
+      spec resource 0x7f02001e WestVlinderen.Droid:drawable/map_polaroid: flags=0x00000100
+      spec resource 0x7f02001f WestVlinderen.Droid:drawable/mijnroutes: flags=0x00000100
+      spec resource 0x7f020020 WestVlinderen.Droid:drawable/notifications: flags=0x00000100
+      spec resource 0x7f020021 WestVlinderen.Droid:drawable/paperclip: flags=0x00000100
+      spec resource 0x7f020022 WestVlinderen.Droid:drawable/photo_stack: flags=0x00000100
+      spec resource 0x7f020023 WestVlinderen.Droid:drawable/pin: flags=0x00000100
+      spec resource 0x7f020024 WestVlinderen.Droid:drawable/placeholder: flags=0x00000100
+      spec resource 0x7f020025 WestVlinderen.Droid:drawable/share: flags=0x00000100
+      spec resource 0x7f020026 WestVlinderen.Droid:drawable/slider_beer: flags=0x00000100
+      spec resource 0x7f020027 WestVlinderen.Droid:drawable/slider_bike: flags=0x00000100
+      spec resource 0x7f020028 WestVlinderen.Droid:drawable/telephone: flags=0x00000100
+      spec resource 0x7f020029 WestVlinderen.Droid:drawable/walk_checked: flags=0x00000100
+      spec resource 0x7f02002a WestVlinderen.Droid:drawable/walk_unchecked: flags=0x00000100
+      spec resource 0x7f02002b WestVlinderen.Droid:drawable/waypointroundedblock: flags=0x00000000
+      config 0
+        resource 0x7f020000 WestVlinderen.Droid:drawable/actionbar_back_indicator: t=0x03 d=0x00000002 (s=0x0008 r=0x00)
+        resource 0x7f020001 WestVlinderen.Droid:drawable/actionbar_background: t=0x03 d=0x00000024 (s=0x0008 r=0x00)
+        resource 0x7f020002 WestVlinderen.Droid:drawable/actionbar_btn: t=0x03 d=0x0000001d (s=0x0008 r=0x00)
+        resource 0x7f020003 WestVlinderen.Droid:drawable/actionbar_btn_normal: t=0x03 d=0x00000020 (s=0x0008 r=0x00)
+        resource 0x7f020004 WestVlinderen.Droid:drawable/actionbar_btn_pressed: t=0x03 d=0x00000021 (s=0x0008 r=0x00)
+        resource 0x7f02000d WestVlinderen.Droid:drawable/darkerdefaultbutton: t=0x03 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f02000e WestVlinderen.Droid:drawable/defaultbutton: t=0x03 d=0x00000001 (s=0x0008 r=0x00)
+        resource 0x7f02000f WestVlinderen.Droid:drawable/defaultlistbackground: t=0x03 d=0x0000001c (s=0x0008 r=0x00)
+        resource 0x7f020014 WestVlinderen.Droid:drawable/ic_title_home_demo: t=0x03 d=0x0000001e (s=0x0008 r=0x00)
+        resource 0x7f020015 WestVlinderen.Droid:drawable/icon: t=0x03 d=0x0000001f (s=0x0008 r=0x00)
+        resource 0x7f02001b WestVlinderen.Droid:drawable/listitemactivated: t=0x03 d=0x00000022 (s=0x0008 r=0x00)
+        resource 0x7f02001c WestVlinderen.Droid:drawable/listitemdefault: t=0x03 d=0x00000023 (s=0x0008 r=0x00)
+        resource 0x7f02002b WestVlinderen.Droid:drawable/waypointroundedblock: t=0x03 d=0x00000003 (s=0x0008 r=0x00)
+      config 1 density=120 sdk=4
+        resource 0x7f020005 WestVlinderen.Droid:drawable/arrow_bg: t=0x03 d=0x00000028 (s=0x0008 r=0x00)
+        resource 0x7f020006 WestVlinderen.Droid:drawable/background_empty: t=0x03 d=0x0000002e (s=0x0008 r=0x00)
+        resource 0x7f020007 WestVlinderen.Droid:drawable/background_home: t=0x03 d=0x00000031 (s=0x0008 r=0x00)
+        resource 0x7f020008 WestVlinderen.Droid:drawable/bell: t=0x03 d=0x00000041 (s=0x0008 r=0x00)
+        resource 0x7f020009 WestVlinderen.Droid:drawable/bike_checked: t=0x03 d=0x00000033 (s=0x0008 r=0x00)
+        resource 0x7f02000a WestVlinderen.Droid:drawable/bike_unchecked: t=0x03 d=0x0000002b (s=0x0008 r=0x00)
+        resource 0x7f02000b WestVlinderen.Droid:drawable/couple_checked: t=0x03 d=0x00000034 (s=0x0008 r=0x00)
+        resource 0x7f02000c WestVlinderen.Droid:drawable/couple_unchecked: t=0x03 d=0x0000003d (s=0x0008 r=0x00)
+        resource 0x7f020010 WestVlinderen.Droid:drawable/family_checked: t=0x03 d=0x0000003f (s=0x0008 r=0x00)
+        resource 0x7f020011 WestVlinderen.Droid:drawable/family_unchecked: t=0x03 d=0x00000042 (s=0x0008 r=0x00)
+        resource 0x7f020012 WestVlinderen.Droid:drawable/horizontal_divider: t=0x03 d=0x0000002d (s=0x0008 r=0x00)
+        resource 0x7f020013 WestVlinderen.Droid:drawable/ic_launcher: t=0x03 d=0x00000039 (s=0x0008 r=0x00)
+        resource 0x7f020016 WestVlinderen.Droid:drawable/icon_code: t=0x03 d=0x00000027 (s=0x0008 r=0x00)
+        resource 0x7f020017 WestVlinderen.Droid:drawable/icon_compass: t=0x03 d=0x00000037 (s=0x0008 r=0x00)
+        resource 0x7f020018 WestVlinderen.Droid:drawable/icon_fietser: t=0x03 d=0x00000025 (s=0x0008 r=0x00)
+        resource 0x7f020019 WestVlinderen.Droid:drawable/icon_info: t=0x03 d=0x0000002a (s=0x0008 r=0x00)
+        resource 0x7f02001a WestVlinderen.Droid:drawable/icon_wandelaar: t=0x03 d=0x00000030 (s=0x0008 r=0x00)
+        resource 0x7f02001d WestVlinderen.Droid:drawable/map: t=0x03 d=0x0000003c (s=0x0008 r=0x00)
+        resource 0x7f02001e WestVlinderen.Droid:drawable/map_polaroid: t=0x03 d=0x00000026 (s=0x0008 r=0x00)
+        resource 0x7f02001f WestVlinderen.Droid:drawable/mijnroutes: t=0x03 d=0x00000029 (s=0x0008 r=0x00)
+        resource 0x7f020020 WestVlinderen.Droid:drawable/notifications: t=0x03 d=0x0000002c (s=0x0008 r=0x00)
+        resource 0x7f020021 WestVlinderen.Droid:drawable/paperclip: t=0x03 d=0x0000002f (s=0x0008 r=0x00)
+        resource 0x7f020022 WestVlinderen.Droid:drawable/photo_stack: t=0x03 d=0x00000032 (s=0x0008 r=0x00)
+        resource 0x7f020023 WestVlinderen.Droid:drawable/pin: t=0x03 d=0x00000035 (s=0x0008 r=0x00)
+        resource 0x7f020024 WestVlinderen.Droid:drawable/placeholder: t=0x03 d=0x00000038 (s=0x0008 r=0x00)
+        resource 0x7f020025 WestVlinderen.Droid:drawable/share: t=0x03 d=0x0000003b (s=0x0008 r=0x00)
+        resource 0x7f020026 WestVlinderen.Droid:drawable/slider_beer: t=0x03 d=0x0000003e (s=0x0008 r=0x00)
+        resource 0x7f020027 WestVlinderen.Droid:drawable/slider_bike: t=0x03 d=0x00000043 (s=0x0008 r=0x00)
+        resource 0x7f020028 WestVlinderen.Droid:drawable/telephone: t=0x03 d=0x00000036 (s=0x0008 r=0x00)
+        resource 0x7f020029 WestVlinderen.Droid:drawable/walk_checked: t=0x03 d=0x0000003a (s=0x0008 r=0x00)
+        resource 0x7f02002a WestVlinderen.Droid:drawable/walk_unchecked: t=0x03 d=0x00000040 (s=0x0008 r=0x00)
+      config 2 density=160 sdk=4
+        resource 0x7f020005 WestVlinderen.Droid:drawable/arrow_bg: t=0x03 d=0x0000005a (s=0x0008 r=0x00)
+        resource 0x7f020006 WestVlinderen.Droid:drawable/background_empty: t=0x03 d=0x00000061 (s=0x0008 r=0x00)
+        resource 0x7f020007 WestVlinderen.Droid:drawable/background_home: t=0x03 d=0x00000047 (s=0x0008 r=0x00)
+        resource 0x7f020008 WestVlinderen.Droid:drawable/bell: t=0x03 d=0x0000004d (s=0x0008 r=0x00)
+        resource 0x7f020009 WestVlinderen.Droid:drawable/bike_checked: t=0x03 d=0x00000054 (s=0x0008 r=0x00)
+        resource 0x7f02000a WestVlinderen.Droid:drawable/bike_unchecked: t=0x03 d=0x00000058 (s=0x0008 r=0x00)
+        resource 0x7f02000b WestVlinderen.Droid:drawable/couple_checked: t=0x03 d=0x0000005d (s=0x0008 r=0x00)
+        resource 0x7f02000c WestVlinderen.Droid:drawable/couple_unchecked: t=0x03 d=0x00000048 (s=0x0008 r=0x00)
+        resource 0x7f020010 WestVlinderen.Droid:drawable/family_checked: t=0x03 d=0x00000060 (s=0x0008 r=0x00)
+        resource 0x7f020011 WestVlinderen.Droid:drawable/family_unchecked: t=0x03 d=0x00000044 (s=0x0008 r=0x00)
+        resource 0x7f020012 WestVlinderen.Droid:drawable/horizontal_divider: t=0x03 d=0x00000045 (s=0x0008 r=0x00)
+        resource 0x7f020013 WestVlinderen.Droid:drawable/ic_launcher: t=0x03 d=0x00000046 (s=0x0008 r=0x00)
+        resource 0x7f020016 WestVlinderen.Droid:drawable/icon_code: t=0x03 d=0x00000049 (s=0x0008 r=0x00)
+        resource 0x7f020017 WestVlinderen.Droid:drawable/icon_compass: t=0x03 d=0x0000004b (s=0x0008 r=0x00)
+        resource 0x7f020018 WestVlinderen.Droid:drawable/icon_fietser: t=0x03 d=0x0000004c (s=0x0008 r=0x00)
+        resource 0x7f020019 WestVlinderen.Droid:drawable/icon_info: t=0x03 d=0x0000004e (s=0x0008 r=0x00)
+        resource 0x7f02001a WestVlinderen.Droid:drawable/icon_wandelaar: t=0x03 d=0x0000004f (s=0x0008 r=0x00)
+        resource 0x7f02001d WestVlinderen.Droid:drawable/map: t=0x03 d=0x00000053 (s=0x0008 r=0x00)
+        resource 0x7f02001e WestVlinderen.Droid:drawable/map_polaroid: t=0x03 d=0x00000055 (s=0x0008 r=0x00)
+        resource 0x7f02001f WestVlinderen.Droid:drawable/mijnroutes: t=0x03 d=0x00000056 (s=0x0008 r=0x00)
+        resource 0x7f020020 WestVlinderen.Droid:drawable/notifications: t=0x03 d=0x00000057 (s=0x0008 r=0x00)
+        resource 0x7f020021 WestVlinderen.Droid:drawable/paperclip: t=0x03 d=0x00000059 (s=0x0008 r=0x00)
+        resource 0x7f020022 WestVlinderen.Droid:drawable/photo_stack: t=0x03 d=0x0000005b (s=0x0008 r=0x00)
+        resource 0x7f020023 WestVlinderen.Droid:drawable/pin: t=0x03 d=0x0000005c (s=0x0008 r=0x00)
+        resource 0x7f020024 WestVlinderen.Droid:drawable/placeholder: t=0x03 d=0x0000005e (s=0x0008 r=0x00)
+        resource 0x7f020025 WestVlinderen.Droid:drawable/share: t=0x03 d=0x0000005f (s=0x0008 r=0x00)
+        resource 0x7f020026 WestVlinderen.Droid:drawable/slider_beer: t=0x03 d=0x00000062 (s=0x0008 r=0x00)
+        resource 0x7f020027 WestVlinderen.Droid:drawable/slider_bike: t=0x03 d=0x0000004a (s=0x0008 r=0x00)
+        resource 0x7f020028 WestVlinderen.Droid:drawable/telephone: t=0x03 d=0x00000050 (s=0x0008 r=0x00)
+        resource 0x7f020029 WestVlinderen.Droid:drawable/walk_checked: t=0x03 d=0x00000051 (s=0x0008 r=0x00)
+        resource 0x7f02002a WestVlinderen.Droid:drawable/walk_unchecked: t=0x03 d=0x00000052 (s=0x0008 r=0x00)
+      config 3 density=240 sdk=4
+        resource 0x7f020005 WestVlinderen.Droid:drawable/arrow_bg: t=0x03 d=0x00000064 (s=0x0008 r=0x00)
+        resource 0x7f020006 WestVlinderen.Droid:drawable/background_empty: t=0x03 d=0x00000065 (s=0x0008 r=0x00)
+        resource 0x7f020007 WestVlinderen.Droid:drawable/background_home: t=0x03 d=0x00000066 (s=0x0008 r=0x00)
+        resource 0x7f020008 WestVlinderen.Droid:drawable/bell: t=0x03 d=0x00000067 (s=0x0008 r=0x00)
+        resource 0x7f020009 WestVlinderen.Droid:drawable/bike_checked: t=0x03 d=0x00000068 (s=0x0008 r=0x00)
+        resource 0x7f02000a WestVlinderen.Droid:drawable/bike_unchecked: t=0x03 d=0x00000069 (s=0x0008 r=0x00)
+        resource 0x7f02000b WestVlinderen.Droid:drawable/couple_checked: t=0x03 d=0x0000006a (s=0x0008 r=0x00)
+        resource 0x7f02000c WestVlinderen.Droid:drawable/couple_unchecked: t=0x03 d=0x0000006b (s=0x0008 r=0x00)
+        resource 0x7f020010 WestVlinderen.Droid:drawable/family_checked: t=0x03 d=0x0000006c (s=0x0008 r=0x00)
+        resource 0x7f020011 WestVlinderen.Droid:drawable/family_unchecked: t=0x03 d=0x0000006d (s=0x0008 r=0x00)
+        resource 0x7f020012 WestVlinderen.Droid:drawable/horizontal_divider: t=0x03 d=0x0000006e (s=0x0008 r=0x00)
+        resource 0x7f020013 WestVlinderen.Droid:drawable/ic_launcher: t=0x03 d=0x0000006f (s=0x0008 r=0x00)
+        resource 0x7f020016 WestVlinderen.Droid:drawable/icon_code: t=0x03 d=0x00000070 (s=0x0008 r=0x00)
+        resource 0x7f020017 WestVlinderen.Droid:drawable/icon_compass: t=0x03 d=0x00000071 (s=0x0008 r=0x00)
+        resource 0x7f020018 WestVlinderen.Droid:drawable/icon_fietser: t=0x03 d=0x00000072 (s=0x0008 r=0x00)
+        resource 0x7f020019 WestVlinderen.Droid:drawable/icon_info: t=0x03 d=0x00000073 (s=0x0008 r=0x00)
+        resource 0x7f02001a WestVlinderen.Droid:drawable/icon_wandelaar: t=0x03 d=0x00000074 (s=0x0008 r=0x00)
+        resource 0x7f02001d WestVlinderen.Droid:drawable/map: t=0x03 d=0x00000075 (s=0x0008 r=0x00)
+        resource 0x7f02001e WestVlinderen.Droid:drawable/map_polaroid: t=0x03 d=0x00000076 (s=0x0008 r=0x00)
+        resource 0x7f02001f WestVlinderen.Droid:drawable/mijnroutes: t=0x03 d=0x00000077 (s=0x0008 r=0x00)
+        resource 0x7f020020 WestVlinderen.Droid:drawable/notifications: t=0x03 d=0x00000078 (s=0x0008 r=0x00)
+        resource 0x7f020021 WestVlinderen.Droid:drawable/paperclip: t=0x03 d=0x00000079 (s=0x0008 r=0x00)
+        resource 0x7f020022 WestVlinderen.Droid:drawable/photo_stack: t=0x03 d=0x0000007a (s=0x0008 r=0x00)
+        resource 0x7f020023 WestVlinderen.Droid:drawable/pin: t=0x03 d=0x0000007b (s=0x0008 r=0x00)
+        resource 0x7f020024 WestVlinderen.Droid:drawable/placeholder: t=0x03 d=0x0000007c (s=0x0008 r=0x00)
+        resource 0x7f020025 WestVlinderen.Droid:drawable/share: t=0x03 d=0x0000007d (s=0x0008 r=0x00)
+        resource 0x7f020026 WestVlinderen.Droid:drawable/slider_beer: t=0x03 d=0x0000007e (s=0x0008 r=0x00)
+        resource 0x7f020027 WestVlinderen.Droid:drawable/slider_bike: t=0x03 d=0x0000007f (s=0x0008 r=0x00)
+        resource 0x7f020028 WestVlinderen.Droid:drawable/telephone: t=0x03 d=0x00000080 (s=0x0008 r=0x00)
+        resource 0x7f020029 WestVlinderen.Droid:drawable/walk_checked: t=0x03 d=0x00000081 (s=0x0008 r=0x00)
+        resource 0x7f02002a WestVlinderen.Droid:drawable/walk_unchecked: t=0x03 d=0x00000063 (s=0x0008 r=0x00)
+    type 2 configCount=1 entryCount=19
+      spec resource 0x7f030000 WestVlinderen.Droid:layout/aboutactivity: flags=0x00000000
+      spec resource 0x7f030001 WestVlinderen.Droid:layout/actionbar: flags=0x00000000
+      spec resource 0x7f030002 WestVlinderen.Droid:layout/actionbar_item: flags=0x00000000
+      spec resource 0x7f030003 WestVlinderen.Droid:layout/actionbar_text_item: flags=0x00000000
+      spec resource 0x7f030004 WestVlinderen.Droid:layout/homeactivity: flags=0x00000000
+      spec resource 0x7f030005 WestVlinderen.Droid:layout/myroutesactivity: flags=0x00000000
+      spec resource 0x7f030006 WestVlinderen.Droid:layout/notificationoverviewactivity: flags=0x00000000
+      spec resource 0x7f030007 WestVlinderen.Droid:layout/plantripactivity: flags=0x00000000
+      spec resource 0x7f030008 WestVlinderen.Droid:layout/poidetailactivity: flags=0x00000000
+      spec resource 0x7f030009 WestVlinderen.Droid:layout/poilistitem: flags=0x00000000
+      spec resource 0x7f03000a WestVlinderen.Droid:layout/poitutorialactivity: flags=0x00000000
+      spec resource 0x7f03000b WestVlinderen.Droid:layout/routecodeactivity: flags=0x00000000
+      spec resource 0x7f03000c WestVlinderen.Droid:layout/routedetailactivity: flags=0x00000000
+      spec resource 0x7f03000d WestVlinderen.Droid:layout/routeoverviewactivity: flags=0x00000000
+      spec resource 0x7f03000e WestVlinderen.Droid:layout/routesummaryview: flags=0x00000000
+      spec resource 0x7f03000f WestVlinderen.Droid:layout/shareactivity: flags=0x00000000
+      spec resource 0x7f030010 WestVlinderen.Droid:layout/simplepoilistitem: flags=0x00000000
+      spec resource 0x7f030011 WestVlinderen.Droid:layout/viewfullrouteview: flags=0x00000000
+      spec resource 0x7f030012 WestVlinderen.Droid:layout/waypointlistitem: flags=0x00000000
+      config 0
+        resource 0x7f030000 WestVlinderen.Droid:layout/aboutactivity: t=0x03 d=0x00000004 (s=0x0008 r=0x00)
+        resource 0x7f030001 WestVlinderen.Droid:layout/actionbar: t=0x03 d=0x00000005 (s=0x0008 r=0x00)
+        resource 0x7f030002 WestVlinderen.Droid:layout/actionbar_item: t=0x03 d=0x00000006 (s=0x0008 r=0x00)
+        resource 0x7f030003 WestVlinderen.Droid:layout/actionbar_text_item: t=0x03 d=0x00000007 (s=0x0008 r=0x00)
+        resource 0x7f030004 WestVlinderen.Droid:layout/homeactivity: t=0x03 d=0x00000008 (s=0x0008 r=0x00)
+        resource 0x7f030005 WestVlinderen.Droid:layout/myroutesactivity: t=0x03 d=0x00000009 (s=0x0008 r=0x00)
+        resource 0x7f030006 WestVlinderen.Droid:layout/notificationoverviewactivity: t=0x03 d=0x0000000a (s=0x0008 r=0x00)
+        resource 0x7f030007 WestVlinderen.Droid:layout/plantripactivity: t=0x03 d=0x0000000b (s=0x0008 r=0x00)
+        resource 0x7f030008 WestVlinderen.Droid:layout/poidetailactivity: t=0x03 d=0x0000000c (s=0x0008 r=0x00)
+        resource 0x7f030009 WestVlinderen.Droid:layout/poilistitem: t=0x03 d=0x0000000d (s=0x0008 r=0x00)
+        resource 0x7f03000a WestVlinderen.Droid:layout/poitutorialactivity: t=0x03 d=0x0000000e (s=0x0008 r=0x00)
+        resource 0x7f03000b WestVlinderen.Droid:layout/routecodeactivity: t=0x03 d=0x0000000f (s=0x0008 r=0x00)
+        resource 0x7f03000c WestVlinderen.Droid:layout/routedetailactivity: t=0x03 d=0x00000010 (s=0x0008 r=0x00)
+        resource 0x7f03000d WestVlinderen.Droid:layout/routeoverviewactivity: t=0x03 d=0x00000011 (s=0x0008 r=0x00)
+        resource 0x7f03000e WestVlinderen.Droid:layout/routesummaryview: t=0x03 d=0x00000012 (s=0x0008 r=0x00)
+        resource 0x7f03000f WestVlinderen.Droid:layout/shareactivity: t=0x03 d=0x00000013 (s=0x0008 r=0x00)
+        resource 0x7f030010 WestVlinderen.Droid:layout/simplepoilistitem: t=0x03 d=0x00000014 (s=0x0008 r=0x00)
+        resource 0x7f030011 WestVlinderen.Droid:layout/viewfullrouteview: t=0x03 d=0x00000015 (s=0x0008 r=0x00)
+        resource 0x7f030012 WestVlinderen.Droid:layout/waypointlistitem: t=0x03 d=0x00000016 (s=0x0008 r=0x00)
+    type 3 configCount=1 entryCount=1
+      spec resource 0x7f040000 WestVlinderen.Droid:raw/bikebell: flags=0x00000000
+      config 0
+        resource 0x7f040000 WestVlinderen.Droid:raw/bikebell: t=0x03 d=0x00000017 (s=0x0008 r=0x00)
+    type 4 configCount=1 entryCount=18
+      spec resource 0x7f050000 WestVlinderen.Droid:color/white: flags=0x00000000
+      spec resource 0x7f050001 WestVlinderen.Droid:color/westvlinderen_green: flags=0x00000000
+      spec resource 0x7f050002 WestVlinderen.Droid:color/westvlinderen_green_tapped: flags=0x00000000
+      spec resource 0x7f050003 WestVlinderen.Droid:color/westvlinderen_lightblue: flags=0x00000000
+      spec resource 0x7f050004 WestVlinderen.Droid:color/westvlinderen_lightblue_tapped: flags=0x00000000
+      spec resource 0x7f050005 WestVlinderen.Droid:color/westvlinderen_darkblue: flags=0x00000000
+      spec resource 0x7f050006 WestVlinderen.Droid:color/westvlinderen_darkblue_tapped: flags=0x00000000
+      spec resource 0x7f050007 WestVlinderen.Droid:color/westvlinderen_darkgrey: flags=0x00000000
+      spec resource 0x7f050008 WestVlinderen.Droid:color/westvlinderen_white: flags=0x00000000
+      spec resource 0x7f050009 WestVlinderen.Droid:color/westvlinderen_lightgrey: flags=0x00000000
+      spec resource 0x7f05000a WestVlinderen.Droid:color/westvlinderen_darkgreytext: flags=0x00000000
+      spec resource 0x7f05000b WestVlinderen.Droid:color/transparent: flags=0x00000000
+      spec resource 0x7f05000c WestVlinderen.Droid:color/actionbar_separator: flags=0x00000000
+      spec resource 0x7f05000d WestVlinderen.Droid:color/actionbar_title: flags=0x00000000
+      spec resource 0x7f05000e WestVlinderen.Droid:color/actionbar_background_start: flags=0x00000000
+      spec resource 0x7f05000f WestVlinderen.Droid:color/actionbar_background_end: flags=0x00000000
+      spec resource 0x7f050010 WestVlinderen.Droid:color/actionbar_background_item_pressed_start: flags=0x00000000
+      spec resource 0x7f050011 WestVlinderen.Droid:color/actionbar_background_item_pressed_end: flags=0x00000000
+      config 0
+        resource 0x7f050000 WestVlinderen.Droid:color/white: t=0x1d d=0xffffffff (s=0x0008 r=0x00)
+        resource 0x7f050001 WestVlinderen.Droid:color/westvlinderen_green: t=0x1d d=0xff5c8b00 (s=0x0008 r=0x00)
+        resource 0x7f050002 WestVlinderen.Droid:color/westvlinderen_green_tapped: t=0x1d d=0xff96b571 (s=0x0008 r=0x00)
+        resource 0x7f050003 WestVlinderen.Droid:color/westvlinderen_lightblue: t=0x1d d=0xff337b8d (s=0x0008 r=0x00)
+        resource 0x7f050004 WestVlinderen.Droid:color/westvlinderen_lightblue_tapped: t=0x1d d=0xff2799b5 (s=0x0008 r=0x00)
+        resource 0x7f050005 WestVlinderen.Droid:color/westvlinderen_darkblue: t=0x1d d=0xff2e606d (s=0x0008 r=0x00)
+        resource 0x7f050006 WestVlinderen.Droid:color/westvlinderen_darkblue_tapped: t=0x1d d=0xff007d8f (s=0x0008 r=0x00)
+        resource 0x7f050007 WestVlinderen.Droid:color/westvlinderen_darkgrey: t=0x1d d=0xff546367 (s=0x0008 r=0x00)
+        resource 0x7f050008 WestVlinderen.Droid:color/westvlinderen_white: t=0x1d d=0xffd1dee2 (s=0x0008 r=0x00)
+        resource 0x7f050009 WestVlinderen.Droid:color/westvlinderen_lightgrey: t=0x1d d=0xff868d8f (s=0x0008 r=0x00)
+        resource 0x7f05000a WestVlinderen.Droid:color/westvlinderen_darkgreytext: t=0x1d d=0xff2b302f (s=0x0008 r=0x00)
+        resource 0x7f05000b WestVlinderen.Droid:color/transparent: t=0x1c d=0x00ffffff (s=0x0008 r=0x00)
+        resource 0x7f05000c WestVlinderen.Droid:color/actionbar_separator: t=0x1d d=0xff4c7300 (s=0x0008 r=0x00)
+        resource 0x7f05000d WestVlinderen.Droid:color/actionbar_title: t=0x1d d=0xffffffff (s=0x0008 r=0x00)
+        resource 0x7f05000e WestVlinderen.Droid:color/actionbar_background_start: t=0x01 d=0x7f050001 (s=0x0008 r=0x00)
+        resource 0x7f05000f WestVlinderen.Droid:color/actionbar_background_end: t=0x01 d=0x7f050001 (s=0x0008 r=0x00)
+        resource 0x7f050010 WestVlinderen.Droid:color/actionbar_background_item_pressed_start: t=0x01 d=0x7f050002 (s=0x0008 r=0x00)
+        resource 0x7f050011 WestVlinderen.Droid:color/actionbar_background_item_pressed_end: t=0x01 d=0x7f050002 (s=0x0008 r=0x00)
+    type 5 configCount=1 entryCount=7
+      spec resource 0x7f060000 WestVlinderen.Droid:dimen/default_list_margin: flags=0x00000000
+      spec resource 0x7f060001 WestVlinderen.Droid:dimen/large_text: flags=0x00000000
+      spec resource 0x7f060002 WestVlinderen.Droid:dimen/regular_text: flags=0x00000000
+      spec resource 0x7f060003 WestVlinderen.Droid:dimen/small_text: flags=0x00000000
+      spec resource 0x7f060004 WestVlinderen.Droid:dimen/actionbar_height: flags=0x00000000
+      spec resource 0x7f060005 WestVlinderen.Droid:dimen/actionbar_item_height: flags=0x00000000
+      spec resource 0x7f060006 WestVlinderen.Droid:dimen/actionbar_item_width: flags=0x00000000
+      config 0
+        resource 0x7f060000 WestVlinderen.Droid:dimen/default_list_margin: t=0x05 d=0x00000a01 (s=0x0008 r=0x00)
+        resource 0x7f060001 WestVlinderen.Droid:dimen/large_text: t=0x05 d=0x00001401 (s=0x0008 r=0x00)
+        resource 0x7f060002 WestVlinderen.Droid:dimen/regular_text: t=0x05 d=0x00000f01 (s=0x0008 r=0x00)
+        resource 0x7f060003 WestVlinderen.Droid:dimen/small_text: t=0x05 d=0x00000c01 (s=0x0008 r=0x00)
+        resource 0x7f060004 WestVlinderen.Droid:dimen/actionbar_height: t=0x05 d=0x00002d01 (s=0x0008 r=0x00)
+        resource 0x7f060005 WestVlinderen.Droid:dimen/actionbar_item_height: t=0x05 d=0x00002d01 (s=0x0008 r=0x00)
+        resource 0x7f060006 WestVlinderen.Droid:dimen/actionbar_item_width: t=0x05 d=0x00002d01 (s=0x0008 r=0x00)
+    type 6 configCount=1 entryCount=80
+      spec resource 0x7f070000 WestVlinderen.Droid:string/app_name: flags=0x00000000
+      spec resource 0x7f070001 WestVlinderen.Droid:string/mapsApiKey: flags=0x00000000
+      spec resource 0x7f070002 WestVlinderen.Droid:string/yes: flags=0x00000000
+      spec resource 0x7f070003 WestVlinderen.Droid:string/no: flags=0x00000000
+      spec resource 0x7f070004 WestVlinderen.Droid:string/next: flags=0x00000000
+      spec resource 0x7f070005 WestVlinderen.Droid:string/previous: flags=0x00000000
+      spec resource 0x7f070006 WestVlinderen.Droid:string/code: flags=0x00000000
+      spec resource 0x7f070007 WestVlinderen.Droid:string/busy: flags=0x00000000
+      spec resource 0x7f070008 WestVlinderen.Droid:string/please_wait: flags=0x00000000
+      spec resource 0x7f070009 WestVlinderen.Droid:string/sorry: flags=0x00000000
+      spec resource 0x7f07000a WestVlinderen.Droid:string/ok: flags=0x00000000
+      spec resource 0x7f07000b WestVlinderen.Droid:string/done: flags=0x00000000
+      spec resource 0x7f07000c WestVlinderen.Droid:string/cancel: flags=0x00000000
+      spec resource 0x7f07000d WestVlinderen.Droid:string/warning: flags=0x00000000
+      spec resource 0x7f07000e WestVlinderen.Droid:string/check_internet_connection: flags=0x00000000
+      spec resource 0x7f07000f WestVlinderen.Droid:string/error_get_route: flags=0x00000000
+      spec resource 0x7f070010 WestVlinderen.Droid:string/error_get_poi: flags=0x00000000
+      spec resource 0x7f070011 WestVlinderen.Droid:string/follow_to_point: flags=0x00000000
+      spec resource 0x7f070012 WestVlinderen.Droid:string/walking_route: flags=0x00000000
+      spec resource 0x7f070013 WestVlinderen.Droid:string/bike_route: flags=0x00000000
+      spec resource 0x7f070014 WestVlinderen.Droid:string/home_plan_a_trip: flags=0x00000000
+      spec resource 0x7f070015 WestVlinderen.Droid:string/home_enter_code: flags=0x00000000
+      spec resource 0x7f070016 WestVlinderen.Droid:string/home_my_routes: flags=0x00000000
+      spec resource 0x7f070017 WestVlinderen.Droid:string/home_notifications_overview: flags=0x00000000
+      spec resource 0x7f070018 WestVlinderen.Droid:string/home_plan_a_trip_subtitle: flags=0x00000000
+      spec resource 0x7f070019 WestVlinderen.Droid:string/home_enter_code_subtitle: flags=0x00000000
+      spec resource 0x7f07001a WestVlinderen.Droid:string/route_suggestion: flags=0x00000000
+      spec resource 0x7f07001b WestVlinderen.Droid:string/route_overview: flags=0x00000000
+      spec resource 0x7f07001c WestVlinderen.Droid:string/shake_to_suggest: flags=0x00000000
+      spec resource 0x7f07001d WestVlinderen.Droid:string/plan_trip_title_subtitle: flags=0x00000000
+      spec resource 0x7f07001e WestVlinderen.Droid:string/plan_trip_depart_where: flags=0x00000000
+      spec resource 0x7f07001f WestVlinderen.Droid:string/plan_trip_depart_when: flags=0x00000000
+      spec resource 0x7f070020 WestVlinderen.Droid:string/plan_trip_transport_type: flags=0x00000000
+      spec resource 0x7f070021 WestVlinderen.Droid:string/plan_trip_kids: flags=0x00000000
+      spec resource 0x7f070022 WestVlinderen.Droid:string/plan_trip_handicap: flags=0x00000000
+      spec resource 0x7f070023 WestVlinderen.Droid:string/plan_trip_trip_type: flags=0x00000000
+      spec resource 0x7f070024 WestVlinderen.Droid:string/plan_trip_plan: flags=0x00000000
+      spec resource 0x7f070025 WestVlinderen.Droid:string/plan_trip_bike: flags=0x00000000
+      spec resource 0x7f070026 WestVlinderen.Droid:string/plan_trip_walk: flags=0x00000000
+      spec resource 0x7f070027 WestVlinderen.Droid:string/plan_trip_depart_anywhere: flags=0x00000000
+      spec resource 0x7f070028 WestVlinderen.Droid:string/route_overview_highlights: flags=0x00000000
+      spec resource 0x7f070029 WestVlinderen.Droid:string/route_overview_to_start: flags=0x00000000
+      spec resource 0x7f07002a WestVlinderen.Droid:string/route_overview_start_with_route: flags=0x00000000
+      spec resource 0x7f07002b WestVlinderen.Droid:string/route_overview_add_to_my_routes: flags=0x00000000
+      spec resource 0x7f07002c WestVlinderen.Droid:string/route_overview_view_full_route: flags=0x00000000
+      spec resource 0x7f07002d WestVlinderen.Droid:string/route_overview_route_saved: flags=0x00000000
+      spec resource 0x7f07002e WestVlinderen.Droid:string/route_overview_finished: flags=0x00000000
+      spec resource 0x7f07002f WestVlinderen.Droid:string/route_overview_do_not_share: flags=0x00000000
+      spec resource 0x7f070030 WestVlinderen.Droid:string/route_detail_select_all: flags=0x00000000
+      spec resource 0x7f070031 WestVlinderen.Droid:string/route_code_title: flags=0x00000000
+      spec resource 0x7f070032 WestVlinderen.Droid:string/route_code_description: flags=0x00000000
+      spec resource 0x7f070033 WestVlinderen.Droid:string/route_code_subtext_title: flags=0x00000000
+      spec resource 0x7f070034 WestVlinderen.Droid:string/route_code_subtext_details: flags=0x00000000
+      spec resource 0x7f070035 WestVlinderen.Droid:string/route_code_no_found: flags=0x00000000
+      spec resource 0x7f070036 WestVlinderen.Droid:string/route_code_search: flags=0x00000000
+      spec resource 0x7f070037 WestVlinderen.Droid:string/my_routes_no_routes: flags=0x00000000
+      spec resource 0x7f070038 WestVlinderen.Droid:string/my_routes_context_menu_title: flags=0x00000000
+      spec resource 0x7f070039 WestVlinderen.Droid:string/my_routes_context_menu_remove: flags=0x00000000
+      spec resource 0x7f07003a WestVlinderen.Droid:string/about_title: flags=0x00000000
+      spec resource 0x7f07003b WestVlinderen.Droid:string/about_text: flags=0x00000000
+      spec resource 0x7f07003c WestVlinderen.Droid:string/share_title: flags=0x00000000
+      spec resource 0x7f07003d WestVlinderen.Droid:string/share_title_twitter: flags=0x00000000
+      spec resource 0x7f07003e WestVlinderen.Droid:string/share_title_facebook: flags=0x00000000
+      spec resource 0x7f07003f WestVlinderen.Droid:string/share_message: flags=0x00000000
+      spec resource 0x7f070040 WestVlinderen.Droid:string/share_to: flags=0x00000000
+      spec resource 0x7f070041 WestVlinderen.Droid:string/share_information: flags=0x00000000
+      spec resource 0x7f070042 WestVlinderen.Droid:string/share_view_route: flags=0x00000000
+      spec resource 0x7f070043 WestVlinderen.Droid:string/share_fetching_route: flags=0x00000000
+      spec resource 0x7f070044 WestVlinderen.Droid:string/share_route_fetch_failed: flags=0x00000000
+      spec resource 0x7f070045 WestVlinderen.Droid:string/poi_detail_view_on_gmaps: flags=0x00000000
+      spec resource 0x7f070046 WestVlinderen.Droid:string/poi_detail_address: flags=0x00000000
+      spec resource 0x7f070047 WestVlinderen.Droid:string/poi_detail_openinghours: flags=0x00000000
+      spec resource 0x7f070048 WestVlinderen.Droid:string/poi_call_poi: flags=0x00000000
+      spec resource 0x7f070049 WestVlinderen.Droid:string/delete_all_notifcations_button: flags=0x00000000
+      spec resource 0x7f07004a WestVlinderen.Droid:string/alert_poi_delete_all_title: flags=0x00000000
+      spec resource 0x7f07004b WestVlinderen.Droid:string/alert_poi_delete_all_message: flags=0x00000000
+      spec resource 0x7f07004c WestVlinderen.Droid:string/alert_poi_notification_other_route_title: flags=0x00000000
+      spec resource 0x7f07004d WestVlinderen.Droid:string/alert_poi_notification_other_route_message: flags=0x00000000
+      spec resource 0x7f07004e WestVlinderen.Droid:string/poi_tutorial_dont_show_again: flags=0x00000000
+      spec resource 0x7f07004f WestVlinderen.Droid:string/delete_route_with_notifications_message: flags=0x00000000
+      config 0
+        resource 0x7f070000 WestVlinderen.Droid:string/app_name: t=0x03 d=0x00000082 (s=0x0008 r=0x00)
+        resource 0x7f070001 WestVlinderen.Droid:string/mapsApiKey: t=0x03 d=0x000000cf (s=0x0008 r=0x00)
+        resource 0x7f070002 WestVlinderen.Droid:string/yes: t=0x03 d=0x000000ce (s=0x0008 r=0x00)
+        resource 0x7f070003 WestVlinderen.Droid:string/no: t=0x03 d=0x000000cd (s=0x0008 r=0x00)
+        resource 0x7f070004 WestVlinderen.Droid:string/next: t=0x03 d=0x000000d0 (s=0x0008 r=0x00)
+        resource 0x7f070005 WestVlinderen.Droid:string/previous: t=0x03 d=0x00000083 (s=0x0008 r=0x00)
+        resource 0x7f070006 WestVlinderen.Droid:string/code: t=0x03 d=0x00000084 (s=0x0008 r=0x00)
+        resource 0x7f070007 WestVlinderen.Droid:string/busy: t=0x03 d=0x00000085 (s=0x0008 r=0x00)
+        resource 0x7f070008 WestVlinderen.Droid:string/please_wait: t=0x03 d=0x00000086 (s=0x0008 r=0x00)
+        resource 0x7f070009 WestVlinderen.Droid:string/sorry: t=0x03 d=0x00000087 (s=0x0008 r=0x00)
+        resource 0x7f07000a WestVlinderen.Droid:string/ok: t=0x03 d=0x00000088 (s=0x0008 r=0x00)
+        resource 0x7f07000b WestVlinderen.Droid:string/done: t=0x03 d=0x00000089 (s=0x0008 r=0x00)
+        resource 0x7f07000c WestVlinderen.Droid:string/cancel: t=0x03 d=0x0000008a (s=0x0008 r=0x00)
+        resource 0x7f07000d WestVlinderen.Droid:string/warning: t=0x03 d=0x0000008b (s=0x0008 r=0x00)
+        resource 0x7f07000e WestVlinderen.Droid:string/check_internet_connection: t=0x03 d=0x0000008c (s=0x0008 r=0x00)
+        resource 0x7f07000f WestVlinderen.Droid:string/error_get_route: t=0x03 d=0x0000008d (s=0x0008 r=0x00)
+        resource 0x7f070010 WestVlinderen.Droid:string/error_get_poi: t=0x03 d=0x0000008e (s=0x0008 r=0x00)
+        resource 0x7f070011 WestVlinderen.Droid:string/follow_to_point: t=0x03 d=0x0000008f (s=0x0008 r=0x00)
+        resource 0x7f070012 WestVlinderen.Droid:string/walking_route: t=0x03 d=0x00000090 (s=0x0008 r=0x00)
+        resource 0x7f070013 WestVlinderen.Droid:string/bike_route: t=0x03 d=0x00000091 (s=0x0008 r=0x00)
+        resource 0x7f070014 WestVlinderen.Droid:string/home_plan_a_trip: t=0x03 d=0x00000092 (s=0x0008 r=0x00)
+        resource 0x7f070015 WestVlinderen.Droid:string/home_enter_code: t=0x03 d=0x00000093 (s=0x0008 r=0x00)
+        resource 0x7f070016 WestVlinderen.Droid:string/home_my_routes: t=0x03 d=0x00000094 (s=0x0008 r=0x00)
+        resource 0x7f070017 WestVlinderen.Droid:string/home_notifications_overview: t=0x03 d=0x00000095 (s=0x0008 r=0x00)
+        resource 0x7f070018 WestVlinderen.Droid:string/home_plan_a_trip_subtitle: t=0x03 d=0x00000096 (s=0x0008 r=0x00)
+        resource 0x7f070019 WestVlinderen.Droid:string/home_enter_code_subtitle: t=0x03 d=0x00000097 (s=0x0008 r=0x00)
+        resource 0x7f07001a WestVlinderen.Droid:string/route_suggestion: t=0x03 d=0x00000098 (s=0x0008 r=0x00)
+        resource 0x7f07001b WestVlinderen.Droid:string/route_overview: t=0x03 d=0x00000099 (s=0x0008 r=0x00)
+        resource 0x7f07001c WestVlinderen.Droid:string/shake_to_suggest: t=0x03 d=0x0000009a (s=0x0008 r=0x00)
+        resource 0x7f07001d WestVlinderen.Droid:string/plan_trip_title_subtitle: t=0x03 d=0x0000009b (s=0x0008 r=0x00)
+        resource 0x7f07001e WestVlinderen.Droid:string/plan_trip_depart_where: t=0x03 d=0x0000009c (s=0x0008 r=0x00)
+        resource 0x7f07001f WestVlinderen.Droid:string/plan_trip_depart_when: t=0x03 d=0x0000009d (s=0x0008 r=0x00)
+        resource 0x7f070020 WestVlinderen.Droid:string/plan_trip_transport_type: t=0x03 d=0x0000009e (s=0x0008 r=0x00)
+        resource 0x7f070021 WestVlinderen.Droid:string/plan_trip_kids: t=0x03 d=0x0000009f (s=0x0008 r=0x00)
+        resource 0x7f070022 WestVlinderen.Droid:string/plan_trip_handicap: t=0x03 d=0x000000a0 (s=0x0008 r=0x00)
+        resource 0x7f070023 WestVlinderen.Droid:string/plan_trip_trip_type: t=0x03 d=0x000000a1 (s=0x0008 r=0x00)
+        resource 0x7f070024 WestVlinderen.Droid:string/plan_trip_plan: t=0x03 d=0x000000a2 (s=0x0008 r=0x00)
+        resource 0x7f070025 WestVlinderen.Droid:string/plan_trip_bike: t=0x03 d=0x000000a3 (s=0x0008 r=0x00)
+        resource 0x7f070026 WestVlinderen.Droid:string/plan_trip_walk: t=0x03 d=0x000000a4 (s=0x0008 r=0x00)
+        resource 0x7f070027 WestVlinderen.Droid:string/plan_trip_depart_anywhere: t=0x03 d=0x000000a5 (s=0x0008 r=0x00)
+        resource 0x7f070028 WestVlinderen.Droid:string/route_overview_highlights: t=0x03 d=0x000000a6 (s=0x0008 r=0x00)
+        resource 0x7f070029 WestVlinderen.Droid:string/route_overview_to_start: t=0x03 d=0x000000a7 (s=0x0008 r=0x00)
+        resource 0x7f07002a WestVlinderen.Droid:string/route_overview_start_with_route: t=0x03 d=0x000000a8 (s=0x0008 r=0x00)
+        resource 0x7f07002b WestVlinderen.Droid:string/route_overview_add_to_my_routes: t=0x03 d=0x000000a9 (s=0x0008 r=0x00)
+        resource 0x7f07002c WestVlinderen.Droid:string/route_overview_view_full_route: t=0x03 d=0x000000aa (s=0x0008 r=0x00)
+        resource 0x7f07002d WestVlinderen.Droid:string/route_overview_route_saved: t=0x03 d=0x000000ab (s=0x0008 r=0x00)
+        resource 0x7f07002e WestVlinderen.Droid:string/route_overview_finished: t=0x03 d=0x000000ac (s=0x0008 r=0x00)
+        resource 0x7f07002f WestVlinderen.Droid:string/route_overview_do_not_share: t=0x03 d=0x000000ad (s=0x0008 r=0x00)
+        resource 0x7f070030 WestVlinderen.Droid:string/route_detail_select_all: t=0x03 d=0x000000ae (s=0x0008 r=0x00)
+        resource 0x7f070031 WestVlinderen.Droid:string/route_code_title: t=0x03 d=0x000000af (s=0x0008 r=0x00)
+        resource 0x7f070032 WestVlinderen.Droid:string/route_code_description: t=0x03 d=0x000000b0 (s=0x0008 r=0x00)
+        resource 0x7f070033 WestVlinderen.Droid:string/route_code_subtext_title: t=0x03 d=0x000000b1 (s=0x0008 r=0x00)
+        resource 0x7f070034 WestVlinderen.Droid:string/route_code_subtext_details: t=0x03 d=0x000000b2 (s=0x0008 r=0x00)
+        resource 0x7f070035 WestVlinderen.Droid:string/route_code_no_found: t=0x03 d=0x000000b3 (s=0x0008 r=0x00)
+        resource 0x7f070036 WestVlinderen.Droid:string/route_code_search: t=0x03 d=0x000000b4 (s=0x0008 r=0x00)
+        resource 0x7f070037 WestVlinderen.Droid:string/my_routes_no_routes: t=0x03 d=0x000000b5 (s=0x0008 r=0x00)
+        resource 0x7f070038 WestVlinderen.Droid:string/my_routes_context_menu_title: t=0x03 d=0x000000b6 (s=0x0008 r=0x00)
+        resource 0x7f070039 WestVlinderen.Droid:string/my_routes_context_menu_remove: t=0x03 d=0x000000b7 (s=0x0008 r=0x00)
+        resource 0x7f07003a WestVlinderen.Droid:string/about_title: t=0x03 d=0x000000b8 (s=0x0008 r=0x00)
+        resource 0x7f07003b WestVlinderen.Droid:string/about_text: t=0x03 d=0x000000b9 (s=0x0008 r=0x00)
+        resource 0x7f07003c WestVlinderen.Droid:string/share_title: t=0x03 d=0x000000ba (s=0x0008 r=0x00)
+        resource 0x7f07003d WestVlinderen.Droid:string/share_title_twitter: t=0x03 d=0x000000bb (s=0x0008 r=0x00)
+        resource 0x7f07003e WestVlinderen.Droid:string/share_title_facebook: t=0x03 d=0x000000bc (s=0x0008 r=0x00)
+        resource 0x7f07003f WestVlinderen.Droid:string/share_message: t=0x03 d=0x000000bd (s=0x0008 r=0x00)
+        resource 0x7f070040 WestVlinderen.Droid:string/share_to: t=0x03 d=0x000000be (s=0x0008 r=0x00)
+        resource 0x7f070041 WestVlinderen.Droid:string/share_information: t=0x03 d=0x000000bf (s=0x0008 r=0x00)
+        resource 0x7f070042 WestVlinderen.Droid:string/share_view_route: t=0x03 d=0x000000c0 (s=0x0008 r=0x00)
+        resource 0x7f070043 WestVlinderen.Droid:string/share_fetching_route: t=0x03 d=0x000000c1 (s=0x0008 r=0x00)
+        resource 0x7f070044 WestVlinderen.Droid:string/share_route_fetch_failed: t=0x03 d=0x000000c2 (s=0x0008 r=0x00)
+        resource 0x7f070045 WestVlinderen.Droid:string/poi_detail_view_on_gmaps: t=0x03 d=0x000000c3 (s=0x0008 r=0x00)
+        resource 0x7f070046 WestVlinderen.Droid:string/poi_detail_address: t=0x03 d=0x000000c4 (s=0x0008 r=0x00)
+        resource 0x7f070047 WestVlinderen.Droid:string/poi_detail_openinghours: t=0x03 d=0x000000c5 (s=0x0008 r=0x00)
+        resource 0x7f070048 WestVlinderen.Droid:string/poi_call_poi: t=0x03 d=0x000000c6 (s=0x0008 r=0x00)
+        resource 0x7f070049 WestVlinderen.Droid:string/delete_all_notifcations_button: t=0x03 d=0x000000c7 (s=0x0008 r=0x00)
+        resource 0x7f07004a WestVlinderen.Droid:string/alert_poi_delete_all_title: t=0x03 d=0x000000c8 (s=0x0008 r=0x00)
+        resource 0x7f07004b WestVlinderen.Droid:string/alert_poi_delete_all_message: t=0x03 d=0x000000c9 (s=0x0008 r=0x00)
+        resource 0x7f07004c WestVlinderen.Droid:string/alert_poi_notification_other_route_title: t=0x03 d=0x00000082 (s=0x0008 r=0x00)
+        resource 0x7f07004d WestVlinderen.Droid:string/alert_poi_notification_other_route_message: t=0x03 d=0x000000ca (s=0x0008 r=0x00)
+        resource 0x7f07004e WestVlinderen.Droid:string/poi_tutorial_dont_show_again: t=0x03 d=0x000000cb (s=0x0008 r=0x00)
+        resource 0x7f07004f WestVlinderen.Droid:string/delete_route_with_notifications_message: t=0x03 d=0x000000cc (s=0x0008 r=0x00)
+    type 7 configCount=1 entryCount=10
+      spec resource 0x7f080000 WestVlinderen.Droid:style/ActionBar: flags=0x00000000
+      spec resource 0x7f080001 WestVlinderen.Droid:style/ActionBarItem: flags=0x00000000
+      spec resource 0x7f080002 WestVlinderen.Droid:style/ActionBarTextItem: flags=0x00000000
+      spec resource 0x7f080003 WestVlinderen.Droid:style/ActionBarHomeItem: flags=0x00000000
+      spec resource 0x7f080004 WestVlinderen.Droid:style/ActionBarHomeLogo: flags=0x00000000
+      spec resource 0x7f080005 WestVlinderen.Droid:style/ActionBarProgressBar: flags=0x00000000
+      spec resource 0x7f080006 WestVlinderen.Droid:style/MainHomeButton: flags=0x00000000
+      spec resource 0x7f080007 WestVlinderen.Droid:style/PlanTripTextView: flags=0x00000000
+      spec resource 0x7f080008 WestVlinderen.Droid:style/DefaultButton: flags=0x00000000
+      spec resource 0x7f080009 WestVlinderen.Droid:style/SmallTitle: flags=0x00000000
+      config 0
+        resource 0x7f080000 WestVlinderen.Droid:style/ActionBar: <bag>
+        resource 0x7f080001 WestVlinderen.Droid:style/ActionBarItem: <bag>
+        resource 0x7f080002 WestVlinderen.Droid:style/ActionBarTextItem: <bag>
+        resource 0x7f080003 WestVlinderen.Droid:style/ActionBarHomeItem: <bag>
+        resource 0x7f080004 WestVlinderen.Droid:style/ActionBarHomeLogo: <bag>
+        resource 0x7f080005 WestVlinderen.Droid:style/ActionBarProgressBar: <bag>
+        resource 0x7f080006 WestVlinderen.Droid:style/MainHomeButton: <bag>
+        resource 0x7f080007 WestVlinderen.Droid:style/PlanTripTextView: <bag>
+        resource 0x7f080008 WestVlinderen.Droid:style/DefaultButton: <bag>
+        resource 0x7f080009 WestVlinderen.Droid:style/SmallTitle: <bag>
+    type 8 configCount=1 entryCount=4
+      spec resource 0x7f090000 WestVlinderen.Droid:menu/homemenu: flags=0x00000000
+      spec resource 0x7f090001 WestVlinderen.Droid:menu/myroutesmenu: flags=0x00000000
+      spec resource 0x7f090002 WestVlinderen.Droid:menu/poidetailmenu: flags=0x00000000
+      spec resource 0x7f090003 WestVlinderen.Droid:menu/sharemenu: flags=0x00000000
+      config 0
+        resource 0x7f090000 WestVlinderen.Droid:menu/homemenu: t=0x03 d=0x0000001b (s=0x0008 r=0x00)
+        resource 0x7f090001 WestVlinderen.Droid:menu/myroutesmenu: t=0x03 d=0x0000001a (s=0x0008 r=0x00)
+        resource 0x7f090002 WestVlinderen.Droid:menu/poidetailmenu: t=0x03 d=0x00000019 (s=0x0008 r=0x00)
+        resource 0x7f090003 WestVlinderen.Droid:menu/sharemenu: t=0x03 d=0x00000018 (s=0x0008 r=0x00)
+    type 9 configCount=1 entryCount=102
+      spec resource 0x7f0a0000 WestVlinderen.Droid:id/actionbar: flags=0x00000000
+      spec resource 0x7f0a0001 WestVlinderen.Droid:id/imageView1: flags=0x00000000
+      spec resource 0x7f0a0002 WestVlinderen.Droid:id/scrollView1: flags=0x00000000
+      spec resource 0x7f0a0003 WestVlinderen.Droid:id/textView: flags=0x00000000
+      spec resource 0x7f0a0004 WestVlinderen.Droid:id/screen: flags=0x00000000
+      spec resource 0x7f0a0005 WestVlinderen.Droid:id/actionbar_home: flags=0x00000000
+      spec resource 0x7f0a0006 WestVlinderen.Droid:id/actionbar_home_logo: flags=0x00000000
+      spec resource 0x7f0a0007 WestVlinderen.Droid:id/actionbar_home_bg: flags=0x00000000
+      spec resource 0x7f0a0008 WestVlinderen.Droid:id/actionbar_home_btn: flags=0x00000000
+      spec resource 0x7f0a0009 WestVlinderen.Droid:id/actionbar_home_is_back: flags=0x00000000
+      spec resource 0x7f0a000a WestVlinderen.Droid:id/actionbar_actions: flags=0x00000000
+      spec resource 0x7f0a000b WestVlinderen.Droid:id/actionbar_progress: flags=0x00000000
+      spec resource 0x7f0a000c WestVlinderen.Droid:id/actionbar_title: flags=0x00000000
+      spec resource 0x7f0a000d WestVlinderen.Droid:id/actionbar_item: flags=0x00000000
+      spec resource 0x7f0a000e WestVlinderen.Droid:id/actionbar_item_textButton: flags=0x00000000
+      spec resource 0x7f0a000f WestVlinderen.Droid:id/relativeLayout1: flags=0x00000000
+      spec resource 0x7f0a0010 WestVlinderen.Droid:id/actionBar: flags=0x00000000
+      spec resource 0x7f0a0011 WestVlinderen.Droid:id/linearLayout1: flags=0x00000000
+      spec resource 0x7f0a0012 WestVlinderen.Droid:id/plan_a_trip_layout: flags=0x00000000
+      spec resource 0x7f0a0013 WestVlinderen.Droid:id/button_plan_a_trip: flags=0x00000000
+      spec resource 0x7f0a0014 WestVlinderen.Droid:id/textView1: flags=0x00000000
+      spec resource 0x7f0a0015 WestVlinderen.Droid:id/enter_code_layout: flags=0x00000000
+      spec resource 0x7f0a0016 WestVlinderen.Droid:id/button_enter_code: flags=0x00000000
+      spec resource 0x7f0a0017 WestVlinderen.Droid:id/textView2: flags=0x00000000
+      spec resource 0x7f0a0018 WestVlinderen.Droid:id/infoButton: flags=0x00000000
+      spec resource 0x7f0a0019 WestVlinderen.Droid:id/listView1: flags=0x00000000
+      spec resource 0x7f0a001a WestVlinderen.Droid:id/empty_list_view: flags=0x00000000
+      spec resource 0x7f0a001b WestVlinderen.Droid:id/notificationsTextTutorial: flags=0x00000000
+      spec resource 0x7f0a001c WestVlinderen.Droid:id/deleteAllNotificationsButton: flags=0x00000000
+      spec resource 0x7f0a001d WestVlinderen.Droid:id/placeholder: flags=0x00000000
+      spec resource 0x7f0a001e WestVlinderen.Droid:id/text_subtitleText: flags=0x00000000
+      spec resource 0x7f0a001f WestVlinderen.Droid:id/text_plan_trip_depart_where: flags=0x00000000
+      spec resource 0x7f0a0020 WestVlinderen.Droid:id/plan_trip_depart_whereSpinner: flags=0x00000000
+      spec resource 0x7f0a0021 WestVlinderen.Droid:id/text_plan_trip_transport_type: flags=0x00000000
+      spec resource 0x7f0a0022 WestVlinderen.Droid:id/transportModeLLayout: flags=0x00000000
+      spec resource 0x7f0a0023 WestVlinderen.Droid:id/plan_trip_type_walkButton: flags=0x00000000
+      spec resource 0x7f0a0024 WestVlinderen.Droid:id/plan_trip_type_bikeButton: flags=0x00000000
+      spec resource 0x7f0a0025 WestVlinderen.Droid:id/text_plan_trip_kids: flags=0x00000000
+      spec resource 0x7f0a0026 WestVlinderen.Droid:id/kidsLLayout: flags=0x00000000
+      spec resource 0x7f0a0027 WestVlinderen.Droid:id/plan_trip_kids_noButton: flags=0x00000000
+      spec resource 0x7f0a0028 WestVlinderen.Droid:id/plan_trip_kids_yesButton: flags=0x00000000
+      spec resource 0x7f0a0029 WestVlinderen.Droid:id/text_plan_trip_handicap: flags=0x00000000
+      spec resource 0x7f0a002a WestVlinderen.Droid:id/handicapLLayout: flags=0x00000000
+      spec resource 0x7f0a002b WestVlinderen.Droid:id/plan_trip_handicap_noButton: flags=0x00000000
+      spec resource 0x7f0a002c WestVlinderen.Droid:id/plan_trip_handicap_yesButton: flags=0x00000000
+      spec resource 0x7f0a002d WestVlinderen.Droid:id/plan_trip_trip_type: flags=0x00000000
+      spec resource 0x7f0a002e WestVlinderen.Droid:id/intensityLLayout: flags=0x00000000
+      spec resource 0x7f0a002f WestVlinderen.Droid:id/seekBar1: flags=0x00000000
+      spec resource 0x7f0a0030 WestVlinderen.Droid:id/imageView2: flags=0x00000000
+      spec resource 0x7f0a0031 WestVlinderen.Droid:id/plan_trip_goButton: flags=0x00000000
+      spec resource 0x7f0a0032 WestVlinderen.Droid:id/relativeLayout2: flags=0x00000000
+      spec resource 0x7f0a0033 WestVlinderen.Droid:id/mapView: flags=0x00000000
+      spec resource 0x7f0a0034 WestVlinderen.Droid:id/bottomBar: flags=0x00000000
+      spec resource 0x7f0a0035 WestVlinderen.Droid:id/detailImageView: flags=0x00000000
+      spec resource 0x7f0a0036 WestVlinderen.Droid:id/descriptionTextView: flags=0x00000000
+      spec resource 0x7f0a0037 WestVlinderen.Droid:id/addressTitleTextView: flags=0x00000000
+      spec resource 0x7f0a0038 WestVlinderen.Droid:id/addressTextView: flags=0x00000000
+      spec resource 0x7f0a0039 WestVlinderen.Droid:id/openinghoursTitleTextView: flags=0x00000000
+      spec resource 0x7f0a003a WestVlinderen.Droid:id/openinghoursTextView: flags=0x00000000
+      spec resource 0x7f0a003b WestVlinderen.Droid:id/prevButton: flags=0x00000000
+      spec resource 0x7f0a003c WestVlinderen.Droid:id/nextButton: flags=0x00000000
+      spec resource 0x7f0a003d WestVlinderen.Droid:id/topGreyBarView: flags=0x00000000
+      spec resource 0x7f0a003e WestVlinderen.Droid:id/bottomGreyBarView: flags=0x00000000
+      spec resource 0x7f0a003f WestVlinderen.Droid:id/imageView: flags=0x00000000
+      spec resource 0x7f0a0040 WestVlinderen.Droid:id/imageViewNotification: flags=0x00000000
+      spec resource 0x7f0a0041 WestVlinderen.Droid:id/titleTextView: flags=0x00000000
+      spec resource 0x7f0a0042 WestVlinderen.Droid:id/subtitleTextView: flags=0x00000000
+      spec resource 0x7f0a0043 WestVlinderen.Droid:id/dontShowAgainButton: flags=0x00000000
+      spec resource 0x7f0a0044 WestVlinderen.Droid:id/codeEditText: flags=0x00000000
+      spec resource 0x7f0a0045 WestVlinderen.Droid:id/searchButton: flags=0x00000000
+      spec resource 0x7f0a0046 WestVlinderen.Droid:id/subtextTitleTextView: flags=0x00000000
+      spec resource 0x7f0a0047 WestVlinderen.Droid:id/subtextDetailTextView: flags=0x00000000
+      spec resource 0x7f0a0048 WestVlinderen.Droid:id/listView: flags=0x00000000
+      spec resource 0x7f0a0049 WestVlinderen.Droid:id/selectAllButton: flags=0x00000000
+      spec resource 0x7f0a004a WestVlinderen.Droid:id/shakeTextView: flags=0x00000000
+      spec resource 0x7f0a004b WestVlinderen.Droid:id/button1: flags=0x00000000
+      spec resource 0x7f0a004c WestVlinderen.Droid:id/header: flags=0x00000000
+      spec resource 0x7f0a004d WestVlinderen.Droid:id/routeTypeImageView: flags=0x00000000
+      spec resource 0x7f0a004e WestVlinderen.Droid:id/routeTitleTextView: flags=0x00000000
+      spec resource 0x7f0a004f WestVlinderen.Droid:id/routeDetailsTextView: flags=0x00000000
+      spec resource 0x7f0a0050 WestVlinderen.Droid:id/dividerImageView: flags=0x00000000
+      spec resource 0x7f0a0051 WestVlinderen.Droid:id/routeDescriptionTextView: flags=0x00000000
+      spec resource 0x7f0a0052 WestVlinderen.Droid:id/to_start: flags=0x00000000
+      spec resource 0x7f0a0053 WestVlinderen.Droid:id/route_to_start_TextView: flags=0x00000000
+      spec resource 0x7f0a0054 WestVlinderen.Droid:id/highlights: flags=0x00000000
+      spec resource 0x7f0a0055 WestVlinderen.Droid:id/shareMessageEditText: flags=0x00000000
+      spec resource 0x7f0a0056 WestVlinderen.Droid:id/frameLayout1: flags=0x00000000
+      spec resource 0x7f0a0057 WestVlinderen.Droid:id/routeLinkTextView: flags=0x00000000
+      spec resource 0x7f0a0058 WestVlinderen.Droid:id/shareRouteButton: flags=0x00000000
+      spec resource 0x7f0a0059 WestVlinderen.Droid:id/imageView3: flags=0x00000000
+      spec resource 0x7f0a005a WestVlinderen.Droid:id/textView3: flags=0x00000000
+      spec resource 0x7f0a005b WestVlinderen.Droid:id/notificationBell: flags=0x00000000
+      spec resource 0x7f0a005c WestVlinderen.Droid:id/waypointIDTextView: flags=0x00000000
+      spec resource 0x7f0a005d WestVlinderen.Droid:id/menu_home_plan_a_trip: flags=0x00000000
+      spec resource 0x7f0a005e WestVlinderen.Droid:id/menu_home_enter_code: flags=0x00000000
+      spec resource 0x7f0a005f WestVlinderen.Droid:id/menu_home_my_routes: flags=0x00000000
+      spec resource 0x7f0a0060 WestVlinderen.Droid:id/menu_home_notifications_overview: flags=0x00000000
+      spec resource 0x7f0a0061 WestVlinderen.Droid:id/remove_from_my_routes: flags=0x00000000
+      spec resource 0x7f0a0062 WestVlinderen.Droid:id/menu_poidetail_callpoi: flags=0x00000000
+      spec resource 0x7f0a0063 WestVlinderen.Droid:id/menu_poidetail_viewgooglemaps: flags=0x00000000
+      spec resource 0x7f0a0064 WestVlinderen.Droid:id/menu_share_twitter: flags=0x00000000
+      spec resource 0x7f0a0065 WestVlinderen.Droid:id/menu_share_facebook: flags=0x00000000
+      config 0
+        resource 0x7f0a0000 WestVlinderen.Droid:id/actionbar: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0001 WestVlinderen.Droid:id/imageView1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0002 WestVlinderen.Droid:id/scrollView1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0003 WestVlinderen.Droid:id/textView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0004 WestVlinderen.Droid:id/screen: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0005 WestVlinderen.Droid:id/actionbar_home: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0006 WestVlinderen.Droid:id/actionbar_home_logo: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0007 WestVlinderen.Droid:id/actionbar_home_bg: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0008 WestVlinderen.Droid:id/actionbar_home_btn: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0009 WestVlinderen.Droid:id/actionbar_home_is_back: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a000a WestVlinderen.Droid:id/actionbar_actions: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a000b WestVlinderen.Droid:id/actionbar_progress: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a000c WestVlinderen.Droid:id/actionbar_title: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a000d WestVlinderen.Droid:id/actionbar_item: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a000e WestVlinderen.Droid:id/actionbar_item_textButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a000f WestVlinderen.Droid:id/relativeLayout1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0010 WestVlinderen.Droid:id/actionBar: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0011 WestVlinderen.Droid:id/linearLayout1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0012 WestVlinderen.Droid:id/plan_a_trip_layout: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0013 WestVlinderen.Droid:id/button_plan_a_trip: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0014 WestVlinderen.Droid:id/textView1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0015 WestVlinderen.Droid:id/enter_code_layout: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0016 WestVlinderen.Droid:id/button_enter_code: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0017 WestVlinderen.Droid:id/textView2: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0018 WestVlinderen.Droid:id/infoButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0019 WestVlinderen.Droid:id/listView1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a001a WestVlinderen.Droid:id/empty_list_view: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a001b WestVlinderen.Droid:id/notificationsTextTutorial: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a001c WestVlinderen.Droid:id/deleteAllNotificationsButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a001d WestVlinderen.Droid:id/placeholder: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a001e WestVlinderen.Droid:id/text_subtitleText: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a001f WestVlinderen.Droid:id/text_plan_trip_depart_where: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0020 WestVlinderen.Droid:id/plan_trip_depart_whereSpinner: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0021 WestVlinderen.Droid:id/text_plan_trip_transport_type: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0022 WestVlinderen.Droid:id/transportModeLLayout: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0023 WestVlinderen.Droid:id/plan_trip_type_walkButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0024 WestVlinderen.Droid:id/plan_trip_type_bikeButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0025 WestVlinderen.Droid:id/text_plan_trip_kids: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0026 WestVlinderen.Droid:id/kidsLLayout: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0027 WestVlinderen.Droid:id/plan_trip_kids_noButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0028 WestVlinderen.Droid:id/plan_trip_kids_yesButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0029 WestVlinderen.Droid:id/text_plan_trip_handicap: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a002a WestVlinderen.Droid:id/handicapLLayout: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a002b WestVlinderen.Droid:id/plan_trip_handicap_noButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a002c WestVlinderen.Droid:id/plan_trip_handicap_yesButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a002d WestVlinderen.Droid:id/plan_trip_trip_type: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a002e WestVlinderen.Droid:id/intensityLLayout: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a002f WestVlinderen.Droid:id/seekBar1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0030 WestVlinderen.Droid:id/imageView2: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0031 WestVlinderen.Droid:id/plan_trip_goButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0032 WestVlinderen.Droid:id/relativeLayout2: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0033 WestVlinderen.Droid:id/mapView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0034 WestVlinderen.Droid:id/bottomBar: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0035 WestVlinderen.Droid:id/detailImageView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0036 WestVlinderen.Droid:id/descriptionTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0037 WestVlinderen.Droid:id/addressTitleTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0038 WestVlinderen.Droid:id/addressTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0039 WestVlinderen.Droid:id/openinghoursTitleTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a003a WestVlinderen.Droid:id/openinghoursTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a003b WestVlinderen.Droid:id/prevButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a003c WestVlinderen.Droid:id/nextButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a003d WestVlinderen.Droid:id/topGreyBarView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a003e WestVlinderen.Droid:id/bottomGreyBarView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a003f WestVlinderen.Droid:id/imageView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0040 WestVlinderen.Droid:id/imageViewNotification: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0041 WestVlinderen.Droid:id/titleTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0042 WestVlinderen.Droid:id/subtitleTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0043 WestVlinderen.Droid:id/dontShowAgainButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0044 WestVlinderen.Droid:id/codeEditText: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0045 WestVlinderen.Droid:id/searchButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0046 WestVlinderen.Droid:id/subtextTitleTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0047 WestVlinderen.Droid:id/subtextDetailTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0048 WestVlinderen.Droid:id/listView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0049 WestVlinderen.Droid:id/selectAllButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a004a WestVlinderen.Droid:id/shakeTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a004b WestVlinderen.Droid:id/button1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a004c WestVlinderen.Droid:id/header: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a004d WestVlinderen.Droid:id/routeTypeImageView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a004e WestVlinderen.Droid:id/routeTitleTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a004f WestVlinderen.Droid:id/routeDetailsTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0050 WestVlinderen.Droid:id/dividerImageView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0051 WestVlinderen.Droid:id/routeDescriptionTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0052 WestVlinderen.Droid:id/to_start: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0053 WestVlinderen.Droid:id/route_to_start_TextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0054 WestVlinderen.Droid:id/highlights: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0055 WestVlinderen.Droid:id/shareMessageEditText: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0056 WestVlinderen.Droid:id/frameLayout1: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0057 WestVlinderen.Droid:id/routeLinkTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0058 WestVlinderen.Droid:id/shareRouteButton: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0059 WestVlinderen.Droid:id/imageView3: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a005a WestVlinderen.Droid:id/textView3: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a005b WestVlinderen.Droid:id/notificationBell: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a005c WestVlinderen.Droid:id/waypointIDTextView: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a005d WestVlinderen.Droid:id/menu_home_plan_a_trip: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a005e WestVlinderen.Droid:id/menu_home_enter_code: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a005f WestVlinderen.Droid:id/menu_home_my_routes: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0060 WestVlinderen.Droid:id/menu_home_notifications_overview: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0061 WestVlinderen.Droid:id/remove_from_my_routes: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0062 WestVlinderen.Droid:id/menu_poidetail_callpoi: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0063 WestVlinderen.Droid:id/menu_poidetail_viewgooglemaps: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0064 WestVlinderen.Droid:id/menu_share_twitter: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+        resource 0x7f0a0065 WestVlinderen.Droid:id/menu_share_facebook: t=0x12 d=0x00000000 (s=0x0008 r=0x00)
+
+Android manifest:
+N: android=http://schemas.android.com/apk/res/android
+  E: manifest (line=2)
+    A: android:versionCode(0x0101021b)=(type 0x10)0x2
+    A: android:versionName(0x0101021c)="1.1" (Raw: "1.1")
+    A: package="WestVlinderen.Droid" (Raw: "WestVlinderen.Droid")
+    E: uses-sdk (line=3)
+      A: android:minSdkVersion(0x0101020c)=(type 0x10)0x8
+      A: android:targetSdkVersion(0x01010270)=(type 0x10)0xa
+    E: application (line=4)
+      A: android:label(0x01010001)="WestVlinderen" (Raw: "WestVlinderen")
+      A: android:icon(0x01010002)=@0x7f020013
+      A: android:name(0x01010003)="westvlinderen.droid.WestVlinderenApplication" (Raw: "westvlinderen.droid.WestVlinderenApplication")
+      A: android:debuggable(0x0101000f)=(type 0x12)0xffffffff
+      E: meta-data (line=5)
+        A: android:name(0x01010003)="FPAnalyticsCode" (Raw: "FPAnalyticsCode")
+        A: android:value(0x01010024)="UA-29805163-13" (Raw: "UA-29805163-13")
+      E: meta-data (line=6)
+        A: android:name(0x01010003)="FPCrashHost" (Raw: "FPCrashHost")
+        A: android:value(0x01010024)="https://crash.flowpilots.com" (Raw: "https://crash.flowpilots.com")
+      E: meta-data (line=7)
+        A: android:name(0x01010003)="FPUpdateName" (Raw: "FPUpdateName")
+        A: android:value(0x01010024)="westtoer-westvlinderen-beta" (Raw: "westtoer-westvlinderen-beta")
+      E: meta-data (line=8)
+        A: android:name(0x01010003)="FPUpdateHost" (Raw: "FPUpdateHost")
+        A: android:value(0x01010024)="https://packages.flowpilots.com" (Raw: "https://packages.flowpilots.com")
+      E: meta-data (line=9)
+        A: android:name(0x01010003)="FPBuildVersion" (Raw: "FPBuildVersion")
+        A: android:value(0x01010024)="11673e3 (Tue Apr  2 14:54:25 CEST 2013) beta" (Raw: "11673e3 (Tue Apr  2 14:54:25 CEST 2013) beta")
+      E: uses-library (line=10)
+        A: android:name(0x01010003)="com.google.android.maps" (Raw: "com.google.android.maps")
+      E: activity (line=11)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)="RouteDetailActivity" (Raw: "RouteDetailActivity")
+        A: android:name(0x01010003)="westvlinderen.droid.RouteDetailActivity" (Raw: "westvlinderen.droid.RouteDetailActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: activity (line=12)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)=@0x7f070000
+        A: android:name(0x01010003)="westvlinderen.droid.Activity1" (Raw: "westvlinderen.droid.Activity1")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+        E: intent-filter (line=13)
+          E: action (line=14)
+            A: android:name(0x01010003)="android.intent.action.MAIN" (Raw: "android.intent.action.MAIN")
+          E: category (line=15)
+            A: android:name(0x01010003)="android.intent.category.LAUNCHER" (Raw: "android.intent.category.LAUNCHER")
+      E: activity (line=18)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)=@0x7f070014
+        A: android:name(0x01010003)="westvlinderen.droid.PlanTripActivity" (Raw: "westvlinderen.droid.PlanTripActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: activity (line=19)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)=@0x7f07001a
+        A: android:name(0x01010003)="westvlinderen.droid.RouteOverviewActivity" (Raw: "westvlinderen.droid.RouteOverviewActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: activity (line=20)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)="POIDetailActivity" (Raw: "POIDetailActivity")
+        A: android:name(0x01010003)="westvlinderen.droid.POIDetailActivity" (Raw: "westvlinderen.droid.POIDetailActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: activity (line=21)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)=@0x7f070031
+        A: android:name(0x01010003)="westvlinderen.droid.RouteCodeActivity" (Raw: "westvlinderen.droid.RouteCodeActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: activity (line=22)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)=@0x7f070016
+        A: android:name(0x01010003)="westvlinderen.droid.MyRoutesActivity" (Raw: "westvlinderen.droid.MyRoutesActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: activity (line=23)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)=@0x7f07003a
+        A: android:name(0x01010003)="westvlinderen.droid.AboutActivity" (Raw: "westvlinderen.droid.AboutActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: activity (line=24)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)=@0x7f07003c
+        A: android:name(0x01010003)="westvlinderen.droid.ShareActivity" (Raw: "westvlinderen.droid.ShareActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: service (line=25)
+        A: android:name(0x01010003)="westvlinderen.droid.RegionMonitoringService" (Raw: "westvlinderen.droid.RegionMonitoringService")
+      E: activity (line=26)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)=@0x7f070017
+        A: android:name(0x01010003)="westvlinderen.droid.NotificationOverviewActivity" (Raw: "westvlinderen.droid.NotificationOverviewActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: activity (line=27)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)="PoiTutorialActivity" (Raw: "PoiTutorialActivity")
+        A: android:name(0x01010003)="westvlinderen.droid.PoiTutorialActivity" (Raw: "westvlinderen.droid.PoiTutorialActivity")
+        A: android:screenOrientation(0x0101001e)=(type 0x10)0x1
+      E: activity (line=28)
+        A: android:theme(0x01010000)=@0x1030009
+        A: android:label(0x01010001)="UpdateActivity" (Raw: "UpdateActivity")
+        A: android:name(0x01010003)="flowpilots.mono.droid.UpdateActivity" (Raw: "flowpilots.mono.droid.UpdateActivity")
+      E: provider (line=29)
+        A: android:name(0x01010003)="mono.MonoRuntimeProvider" (Raw: "mono.MonoRuntimeProvider")
+        A: android:exported(0x01010010)=(type 0x12)0x0
+        A: android:authorities(0x01010018)="WestVlinderen.Droid.mono.MonoRuntimeProvider.__mono_init__" (Raw: "WestVlinderen.Droid.mono.MonoRuntimeProvider.__mono_init__")
+        A: android:initOrder(0x0101001a)=(type 0x10)0x7fffffff
+    E: uses-permission (line=31)
+      A: android:name(0x01010003)="android.permission.ACCESS_COARSE_LOCATION" (Raw: "android.permission.ACCESS_COARSE_LOCATION")
+    E: uses-permission (line=32)
+      A: android:name(0x01010003)="android.permission.ACCESS_FINE_LOCATION" (Raw: "android.permission.ACCESS_FINE_LOCATION")
+    E: uses-permission (line=33)
+      A: android:name(0x01010003)="android.permission.INTERNET" (Raw: "android.permission.INTERNET")
+    E: uses-permission (line=34)
+      A: android:name(0x01010003)="android.permission.CALL_PHONE" (Raw: "android.permission.CALL_PHONE")
+    E: uses-permission (line=35)
+      A: android:name(0x01010003)="android.permission.ACCESS_NETWORK_STATE" (Raw: "android.permission.ACCESS_NETWORK_STATE")
+    E: uses-permission (line=36)
+      A: android:name(0x01010003)="android.permission.VIBRATE" (Raw: "android.permission.VIBRATE")
