@@ -4,10 +4,8 @@ exec = require('child_process').execFile
 parseApk = (filename, cb) ->
     if os.type() == 'Darwin'
         platform = 'macosx'
-        opts = ''
     else if os.type() == 'Linux'
         platform = 'linux'
-        opts = '-JDuser.home=./home'
     else
         return cb(new Error('Unknown OS!'))
 
