@@ -39,9 +39,7 @@ parseOutput = (text, cb) ->
         parent = stack[depth-1]
 
         if type == 'E'
-            element = {
-                '@name': name
-            }
+            element = {}
 
             # Fix stack
             stack.pop() while stack.length > depth
