@@ -27,7 +27,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "install": "chmod +x tools/linux/aapt tools/macosx/aapt"
+    "pretest": "chmod +x tools/linux/aapt tools/macosx/aapt"
   },
   "devDependencies": {
     "grunt-contrib-watch": "~0.3.1",
