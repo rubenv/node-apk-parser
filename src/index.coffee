@@ -78,7 +78,10 @@ parseOutput = (text, cb) ->
                     value = extractRaw(parts[1])
                 else
                     # No idea, get the raw hex value
-                    value = parts[1]
+                    if parts[1].substring(0, 11) == '(type 0x10)'
+                        value = parseInt(parts[1].substring(13), 16)
+                    else
+                        value = parts[1]
 
             parent['@' + name] = value
                 

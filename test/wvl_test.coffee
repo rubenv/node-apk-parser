@@ -32,6 +32,11 @@ describe 'WVL', ->
     it 'Has a package name', ->
         assert.equal(output.manifest[0]['@package'], 'WestVlinderen.Droid')
 
+    it 'Parses SDK versions', ->
+        manifest = output.manifest[0]
+        assert.equal(manifest['uses-sdk'][0]['@android:minSdkVersion'], 8)
+        assert.equal(manifest['uses-sdk'][0]['@android:targetSdkVersion'], 10)
+
     it 'Has an application tag', ->
         manifest = output.manifest[0]
         assert.equal(manifest.application.length, 1)
@@ -40,3 +45,8 @@ describe 'WVL', ->
         manifest = output.manifest[0]
         application = manifest.application[0]
         assert.equal(application['meta-data'].length, 5)
+
+    it 'Application has a label attribute', ->
+        manifest = output.manifest[0]
+        application = manifest.application[0]
+        assert.equal(application['@android:label'], 'WestVlinderen')
