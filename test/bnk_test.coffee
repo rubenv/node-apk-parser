@@ -16,3 +16,16 @@ describe 'BNK', ->
 
     it 'Parses correctly', ->
         assert.notEqual(null, output)
+
+    it 'Starts with a manifest tag', ->
+        assert.equal(output.manifest.length, 1)
+
+    it 'Contains a version name attribute', ->
+        assert.equal(output.manifest[0]['@android:versionName'], '1.0')
+
+    it 'Has a package name', ->
+        assert.equal(output.manifest[0]['@package'], 'be.bnk.mobilebanking')
+
+    it 'Has an application tag', ->
+        manifest = output.manifest[0]
+        assert.equal(manifest.application.length, 1)
