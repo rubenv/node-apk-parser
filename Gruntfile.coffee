@@ -2,6 +2,7 @@ module.exports = (grunt) ->
     @loadNpmTasks('grunt-contrib-clean')
     @loadNpmTasks('grunt-contrib-coffee')
     @loadNpmTasks('grunt-contrib-watch')
+    @loadNpmTasks('grunt-contrib-jshint')
     @loadNpmTasks('grunt-mocha-cli')
     @loadNpmTasks('grunt-release')
 
@@ -15,6 +16,9 @@ module.exports = (grunt) ->
                 src: ['*.coffee'],
                 dest: 'lib',
                 ext: '.js'
+
+        jshint:
+            all: [ 'install.js' ]
 
         clean:
             all: ['lib']
@@ -35,6 +39,6 @@ module.exports = (grunt) ->
                     timeout: 20000
 
     @registerTask 'default', ['test']
-    @registerTask 'build', ['clean', 'coffee']
+    @registerTask 'build', ['clean', 'jshint', 'coffee']
     @registerTask 'package', ['build', 'release']
     @registerTask 'test', ['build', 'mochacli']
