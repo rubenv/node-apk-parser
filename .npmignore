@@ -3,3 +3,4 @@
 Gruntfile.coffee
 src
 test
+tools

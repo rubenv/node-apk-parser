@@ -27,7 +27,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "pretest": "chmod +x tools/linux/aapt tools/macosx/aapt"
+    "install": "node install.js"
   },
   "devDependencies": {
     "grunt-contrib-watch": "~0.3.1",

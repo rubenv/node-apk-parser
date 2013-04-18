@@ -2,14 +2,7 @@ os = require 'os'
 exec = require('child_process').execFile
 
 parseApk = (filename, cb) ->
-    if os.type() == 'Darwin'
-        platform = 'macosx'
-    else if os.type() == 'Linux'
-        platform = 'linux'
-    else
-        return cb(new Error('Unknown OS!'))
-
-    exec "#{__dirname}/../tools/#{platform}/aapt", [ 'l', '-a', filename ], { maxBuffer: 1024*1024 }, (err, out) ->
+    exec "#{__dirname}/../tools/aapt", [ 'l', '-a', filename ], { maxBuffer: 1024*1024 }, (err, out) ->
         return cb(err) if err
         parseOutput(out, cb)
 
