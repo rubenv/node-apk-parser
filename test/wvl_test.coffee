@@ -16,12 +16,6 @@ describe 'WVL', ->
 
     it 'Parses correctly', ->
         assert.notEqual(null, output)
-        ###
-        util = require 'util'
-        console.log util.inspect output,
-            depth: null
-            colors: true
-        ###
 
     it 'Starts with a manifest tag', ->
         assert.equal(output.manifest.length, 1)
