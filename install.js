@@ -26,7 +26,7 @@ var file = fs.createWriteStream(tempFile);
 var request = http.get(url, function(response) {
     response.pipe(file);
     response.on('end', function () {
-        exec("unzip -j -o /tmp/platform-tools.zip platform-tools/aapt -d tools/", function (err) {
+        exec("unzip -j -o " + tempFile + " platform-tools/aapt -d tools/", function (err) {
             if (err) {
                 throw err;
             }
