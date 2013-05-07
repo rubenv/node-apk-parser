@@ -1,7 +1,7 @@
 {
   "name": "apk-parser",
   "description": "Extract Android Manifest info from an APK file.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/rubenv/node-apk-parser",
   "author": {
     "name": "Ruben Vermeersch",
