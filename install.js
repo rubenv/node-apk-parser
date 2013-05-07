@@ -30,6 +30,7 @@ var request = http.get(url, function(response) {
             if (err) {
                 throw err;
             }
+            fs.chmodSync('tools/aapt', '755');
             fs.unlinkSync(tempFile);
             process.exit();
         });
