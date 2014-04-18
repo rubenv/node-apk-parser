@@ -33,6 +33,9 @@ parseOutput = (text, cb) ->
         # Ignore namespaces
         continue if line.match /^N:/
 
+        # Ignore C, not sure what its for
+        continue if line.match /^( +)C:(.*)$/
+        
         # Match the first part of the line
         matches = line.match /^( +)(A|E): ([\w:\-]+)(.*)$/
         if !matches
