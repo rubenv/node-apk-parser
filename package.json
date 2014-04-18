@@ -1,13 +1,20 @@
 {
   "name": "apk-parser",
   "description": "Extract Android Manifest info from an APK file.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/rubenv/node-apk-parser",
   "author": {
     "name": "Ruben Vermeersch",
     "email": "ruben@savanne.be",
     "url": "http://savanne.be/"
   },
+  "contributors": [
+    {
+      "name": "Jeremy Darling",
+      "email": "jeremy.darling@gmail.com",
+      "url": "http://github.com/jdarling"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/rubenv/node-apk-parser.git"
@@ -43,5 +50,9 @@
   "keywords": [
     "android",
     "apk"
-  ]
+  ],
+  "dependencies": {
+    "adm-zip": "^0.4.4",
+    "progress": "^1.1.5"
+  }
 }
