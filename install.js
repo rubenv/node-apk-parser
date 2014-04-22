@@ -11,9 +11,9 @@ try {
 }
 
 var platform = null;
-if (os.type() == 'Darwin') {
+if (os.type() === 'Darwin') {
     platform = 'macosx';
-} else if (os.type() == 'Linux') {
+} else if (os.type() === 'Linux') {
     platform = 'linux';
 } else {
     throw new Error('Unknown OS!');
@@ -24,7 +24,7 @@ function attemptDownload(attemptsLeft) {
     var tempFile = "/tmp/platform-tools-" + (new Date().getTime()) + ".zip";
 
     var file = fs.createWriteStream(tempFile);
-    var request = http.get(url, function(response) {
+    var request = http.get(url, function (response) {
         response.pipe(file);
         response.on('end', function () {
             exec("unzip -j -o " + tempFile + " platform-tools/aapt -d tools/", function (err) {

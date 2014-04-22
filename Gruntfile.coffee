@@ -18,6 +18,8 @@ module.exports = (grunt) ->
                 ext: '.js'
 
         jshint:
+            options:
+                jshintrc: '.jshintrc'
             all: [ 'install.js' ]
 
         clean:
