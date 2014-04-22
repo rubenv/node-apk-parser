@@ -33,7 +33,7 @@ module.exports = (grunt) ->
         mochacli:
             options:
                 files: 'test/*_test.coffee'
-                compilers: ['coffee:coffee-script']
+                compilers: ['coffee:coffee-script/register']
             spec:
                 options:
                     reporter: 'spec'
