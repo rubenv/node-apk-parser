@@ -1,9 +1,9 @@
-var http = require('http');
-var fs = require('fs');
-var os = require('os');
-var exec = require('child_process').exec;
+var http = require("http");
+var fs = require("fs");
+var os = require("os");
+var exec = require("child_process").exec;
 
-var targetDir = __dirname + '/tools/';
+var targetDir = __dirname + "/tools/";
 try {
     fs.statSync(targetDir);
 } catch (e) {
@@ -11,12 +11,12 @@ try {
 }
 
 var platform = null;
-if (os.type() === 'Darwin') {
-    platform = 'macosx';
-} else if (os.type() === 'Linux') {
-    platform = 'linux';
+if (os.type() === "Darwin") {
+    platform = "macosx";
+} else if (os.type() === "Linux") {
+    platform = "linux";
 } else {
-    throw new Error('Unknown OS!');
+    throw new Error("Unknown OS!");
 }
 
 function attemptDownload(attemptsLeft) {
@@ -26,7 +26,7 @@ function attemptDownload(attemptsLeft) {
     var file = fs.createWriteStream(tempFile);
     var request = http.get(url, function (response) {
         response.pipe(file);
-        response.on('end', function () {
+        response.on("end", function () {
             exec("unzip -j -o " + tempFile + " platform-tools/aapt -d tools/", function (err) {
                 if (err) {
                     if (attemptsLeft === 0) {
@@ -36,7 +36,7 @@ function attemptDownload(attemptsLeft) {
                         return;
                     }
                 }
-                fs.chmodSync('tools/aapt', '755');
+                fs.chmodSync("tools/aapt", "755");
                 fs.unlinkSync(tempFile);
                 process.exit();
             });
