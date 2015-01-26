@@ -10,7 +10,7 @@ module.exports = function (grunt) {
             options: {
                 jshintrc: ".jshintrc"
             },
-            all: ["install.js", "lib/*.js"]
+            all: ["install.js", "{lib,test}/*.js"]
         },
         jscs: {
             src: {
@@ -18,20 +18,19 @@ module.exports = function (grunt) {
                     config: ".jscs.json"
                 },
                 files: {
-                    src: ["*.js", "lib/*.js"]
+                    src: ["*.js", "{lib,test}/*.js"]
                 }
             }
         },
         watch: {
             all: {
-                files: ["src/**.coffee", "test/**"],
+                files: ["{lib,test}/*.js", "test/**/*"],
                 tasks: ["test"]
             }
         },
         mochacli: {
             options: {
-                files: "test/*_test.coffee",
-                compilers: ["coffee:coffee-script/register"]
+                files: "test/*_test.js",
             },
             spec: {
                 options: {

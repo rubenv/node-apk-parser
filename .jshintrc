@@ -9,7 +9,16 @@
   "undef": true,
   "boss": true,
   "eqnull": true,
+  "node": true,
   "white": true,
-  "proto": true,
-  "node": true
+  "predef": [
+    "$",
+    "angular",
+    "describe",
+    "it",
+    "before",
+    "beforeEach",
+    "after",
+    "afterEach"
+  ]
 }
