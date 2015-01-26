@@ -79,7 +79,7 @@ Tests can be run using `grunt test`. A convenience command to automatically run 
 
     (The MIT License)
 
-    Copyright (C) 2013 by Ruben Vermeersch <ruben@savanne.be>
+    Copyright (C) 2013-2015 by Ruben Vermeersch <ruben@rocketeer.be>
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
