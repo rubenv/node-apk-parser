@@ -70,8 +70,16 @@ Things to note:
 * Child nodes can be accessed by name. The value is always an array, as there might be more than one array.
 * This representation is unaware of the meaning of this file (you might know that there will always only be one `application` tag, the module does not). This make sure that it never breaks with future Android releases.
 
+You can increase the buffer size when needed, but do note that it comes with a memory cost:
+
+```js
+parseApk('myApkFile.apk', 8 * 1024 * 1024, function (err, data) {
+    // Handle error or do something with data.
+});
+```
+
 ## Contributing
-All code lives in the `src` folder and is written in CoffeeScript. Try to stick to the style conventions used in existing code.
+All code lives in the `lib` folder. Try to stick to the style conventions used in existing code.
 
 Tests can be run using `grunt test`. A convenience command to automatically run the tests is also available: `grunt watch`. Please add test cases when adding new functionality: this will prove that it works and ensure that it will keep working in the future.
     
