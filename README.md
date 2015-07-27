@@ -6,6 +6,16 @@
 
 While there are some implementations for this out in the wild, none of them handle all of the intricacies of the APK file-format. This module uses the `aapt` tool from the Android SDK to solve that problem. The tool will be downloaded and installed during `npm install`. Tested on Linux and OS X.
 
+## Using 64-bit Ubuntu?
+
+Newer versions of Ubuntu don't support 32-bit executables by default. `aapt` is a 32-bit executable. In order for `apk-parser` to work from 64-bit Ubuntu, you need to execute the following commands to install 32-bit support:
+
+```ruby
+sudo dpkg --add-architecture i386
+sudo apt-get -qqy update
+sudo apt-get -qqy install libncurses5:i386 libstdc++6:i386 zlib1g:i386
+```
+
 ## Getting started
 
 Add apk-parser to your project: `npm install --save apk-parser`.
