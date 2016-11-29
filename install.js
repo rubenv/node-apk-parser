@@ -20,7 +20,7 @@ if (os.type() === "Darwin") {
 }
 
 function attemptDownload(attemptsLeft) {
-    var url = "http://dl-ssl.google.com/android/repository/platform-tools_r16-" + platform + ".zip";
+    var url = "https://dl-ssl.google.com/android/repository/platform-tools_r16-" + platform + ".zip";
     var tempFile = "/tmp/platform-tools-" + (new Date().getTime()) + ".zip";
 
     var file = fs.createWriteStream(tempFile);
