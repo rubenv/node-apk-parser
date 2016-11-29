@@ -1,4 +1,4 @@
-var http = require("http");
+var https = require("https");
 var fs = require("fs");
 var os = require("os");
 var exec = require("child_process").exec;
@@ -24,7 +24,7 @@ function attemptDownload(attemptsLeft) {
     var tempFile = "/tmp/platform-tools-" + (new Date().getTime()) + ".zip";
 
     var file = fs.createWriteStream(tempFile);
-    var request = http.get(url, function (response) {
+    var request = https.get(url, function (response) {
         response.pipe(file);
         response.on("end", function () {
             exec("unzip -j -o " + tempFile + " platform-tools/aapt -d tools/", function (err) {
