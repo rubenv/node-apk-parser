@@ -23,11 +23,11 @@ describe("APK V24", function () {
     });
 
     it("Has a package name", function () {
-        assert.equal(output.manifest[0]["@package"], "org.rubenv.testapk");
+        assert.equal(output.manifest[0]["@package"], "com.idotools.bookstore");
     });
 
     it("Has a package version", function () {
-        assert.equal(output.manifest[0]["@platformBuildVersionCode"], "21");
+        assert.equal(output.manifest[0]["@platformBuildVersionCode"], "24");
     });
 
     it("Has an application tag", function () {
