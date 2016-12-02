@@ -30,6 +30,10 @@ describe("APK V24", function () {
         assert.equal(output.manifest[0]["@platformBuildVersionCode"], "24");
     });
 
+    it("Parses platformBuildVersionName", function () {
+        assert.equal(output.manifest[0]["@platformBuildVersionName"], "7.0");
+    });
+
     it("Has an application tag", function () {
         var manifest = output.manifest[0];
         assert.equal(manifest.application.length, 1);
