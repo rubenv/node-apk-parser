@@ -24,7 +24,7 @@ function attemptDownload(attemptsLeft) {
     var tempFile = "/tmp/platform-tools-" + (new Date().getTime()) + ".zip";
 
     var file = fs.createWriteStream(tempFile);
-    var request = https.get(url, function (response) {
+    var request = https.get(url, function (response) {j
         response.pipe(file);
         response.on("end", function () {
             exec("unzip -j -o " + tempFile + " platform-tools/aapt -d tools/", function (err) {
@@ -41,6 +41,15 @@ function attemptDownload(attemptsLeft) {
                 process.exit();
             });
         });
+    });
+}
+
+function intallAapt() {
+    var commandExists = require('command-exists');        
+    commandExists('aapt', function(err, commandExists) {
+        if(commandExists) {
+            
+        }
     });
 }
 

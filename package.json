@@ -42,5 +42,8 @@
   "keywords": [
     "android",
     "apk"
-  ]
+  ],
+  "dependencies": {
+    "command-exists": "^1.2.8"
+  }
 }
