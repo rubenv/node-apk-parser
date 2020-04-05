@@ -44,13 +44,15 @@ function attemptDownload(attemptsLeft) {
     });
 }
 
-function intallAapt() {
+function installAapt() {
     var commandExists = require('command-exists');        
     commandExists('aapt', function(err, commandExists) {
         if(commandExists) {
-            
+            console.log("install aapt finish, use the aapt in path")
+        } else {
+            attemptDownload(3);
         }
     });
 }
 
-attemptDownload(3);
+installAapt();
