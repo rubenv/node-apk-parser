@@ -2,6 +2,7 @@ var https = require("https");
 var fs = require("fs");
 var os = require("os");
 var exec = require("child_process").exec;
+var commandExists = require('command-exists');
 
 var targetDir = __dirname + "/tools/";
 try {
@@ -15,8 +16,10 @@ if (os.type() === "Darwin") {
     platform = "macosx";
 } else if (os.type() === "Linux") {
     platform = "linux";
+} else if (os.type() == "Windows_NT") {
+    platform = "windows"
 } else {
-    throw new Error("Unknown OS!");
+    throw new Error("Unknown OS!: " + os.type());
 }
 
 function attemptDownload(attemptsLeft) {
@@ -24,7 +27,7 @@ function attemptDownload(attemptsLeft) {
     var tempFile = "/tmp/platform-tools-" + (new Date().getTime()) + ".zip";
 
     var file = fs.createWriteStream(tempFile);
-    var request = https.get(url, function (response) {
+    var request = https.get(url, function (response) {j
         response.pipe(file);
         response.on("end", function () {
             exec("unzip -j -o " + tempFile + " platform-tools/aapt -d tools/", function (err) {
@@ -44,4 +47,16 @@ function attemptDownload(attemptsLeft) {
     });
 }
 
-attemptDownload(3);
+function installAapt() {
+    var commandExists = require('command-exists');
+    commandExists('aapt', function(err, commandExists) {
+        if(commandExists) {
+            console.log("install aapt finish, use the aapt in path")
+            process.exit();
+        } else {
+            attemptDownload(3);
+        }
+    });
+}
+
+installAapt();
