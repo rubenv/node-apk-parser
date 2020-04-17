@@ -2,6 +2,7 @@ var https = require("https");
 var fs = require("fs");
 var os = require("os");
 var exec = require("child_process").exec;
+var commandExists = require('command-exists');
 
 var targetDir = __dirname + "/tools/";
 try {
@@ -45,3 +46,17 @@ function attemptDownload(attemptsLeft) {
 }
 
 attemptDownload(3);
+
+function installAapt() {
+    var commandExists = require('command-exists');
+    commandExists('aapt', function(err, commandExists) {
+        if(commandExists) {
+            console.log("install aapt finish, use the aapt in path")
+            process.exit();
+        } else {
+            attemptDownload(3);
+        }
+    });
+}
+
+installAapt();
