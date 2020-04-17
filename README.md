@@ -1,6 +1,3 @@
-# Why fork
-Because for some reason, I can't download the android platform-tools. But I have already donwloaded before. So I want check if `aapt` tool exist before install it.
-
 # apk-parser - Android apk-file parser
 
 > Extract Android Manifest info from an APK file.
